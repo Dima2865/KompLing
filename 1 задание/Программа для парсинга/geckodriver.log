@@ -1,0 +1,2192 @@
+1670158399499	geckodriver	INFO	Listening on 127.0.0.1:34349
+1670158400505	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileGDGQXt"
+Error: no DISPLAY environment variable specified
+1670158685334	geckodriver	INFO	Listening on 127.0.0.1:46963
+1670158686341	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilefWHVEO"
+Unable to init server: Could not connect: Connection refused
+Error: cannot open display: :0
+1670158872114	geckodriver	INFO	Listening on 127.0.0.1:35821
+1670158873199	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilewFOVfI"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670158873989	Marionette	INFO	Marionette enabled
+1670158874020	Marionette	INFO	Listening on port 38399
+Read port: 38399
+1670158874649	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewFOVfI/search.json.mozlz4", (void 0)))
+1670158904349	geckodriver	INFO	Listening on 127.0.0.1:36523
+1670158905355	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilemjTOY3"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670158905587	Marionette	INFO	Marionette enabled
+1670158905590	Marionette	INFO	Listening on port 45981
+Read port: 45981
+1670158905909	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemjTOY3/search.json.mozlz4", (void 0)))
+1670159238554	geckodriver	INFO	Listening on 127.0.0.1:41449
+1670159239559	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilexOJ8o7"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670159239785	Marionette	INFO	Marionette enabled
+1670159239789	Marionette	INFO	Listening on port 36771
+Read port: 36771
+1670159240175	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexOJ8o7/search.json.mozlz4", (void 0)))
+1670159881738	geckodriver	INFO	Listening on 127.0.0.1:55257
+1670159882748	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileJNP08W"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670159883011	Marionette	INFO	Marionette enabled
+1670159883015	Marionette	INFO	Listening on port 36903
+Read port: 36903
+1670159883108	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJNP08W/search.json.mozlz4", (void 0)))
+1670159909364	geckodriver	INFO	Listening on 127.0.0.1:36313
+1670159910371	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileAx5Bwl"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670159910683	Marionette	INFO	Marionette enabled
+1670159910688	Marionette	INFO	Listening on port 45603
+Read port: 45603
+1670159911066	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAx5Bwl/search.json.mozlz4", (void 0)))
+1670160081019	geckodriver	INFO	Listening on 127.0.0.1:40157
+1670160082015	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile7ySiGN"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670160083086	Marionette	INFO	Marionette enabled
+1670160083094	Marionette	INFO	Listening on port 44659
+Read port: 44659
+1670160083803	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Managed to allocate after flush.
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 763))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 415))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+JavaScript error: , line 0: uncaught exception: out of memory
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7ySiGN/search.json.mozlz4", (void 0)))
+out of memory: 0x0000000000000C00 bytes requested
+Exiting due to channel error.
+1670160512982	geckodriver	INFO	Listening on 127.0.0.1:34331
+1670160514013	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilepmW5a1"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670160515125	Marionette	INFO	Marionette enabled
+1670160515131	Marionette	INFO	Listening on port 35497
+Read port: 35497
+1670160515492	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepmW5a1/search.json.mozlz4", (void 0)))
+1670160523544	Marionette	INFO	Stopped listening on port 35497
+1670160562935	geckodriver	INFO	Listening on 127.0.0.1:35405
+1670160563958	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileXRks6v"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670160564220	Marionette	INFO	Marionette enabled
+1670160564224	Marionette	INFO	Listening on port 44853
+Read port: 44853
+1670160564318	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXRks6v/search.json.mozlz4", (void 0)))
+1670160570488	Marionette	INFO	Stopped listening on port 44853
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f4869ec9700"
+1670160571455	geckodriver	INFO	Listening on 127.0.0.1:44091
+1670160572507	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileDi3FzB"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670160572779	Marionette	INFO	Marionette enabled
+1670160572783	Marionette	INFO	Listening on port 34867
+Read port: 34867
+1670160572879	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDi3FzB/search.json.mozlz4", (void 0)))
+1670160579307	Marionette	INFO	Stopped listening on port 34867
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7fc4a76fd100"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7fc4a76fdb00"
+1670160625416	geckodriver	INFO	Listening on 127.0.0.1:55019
+1670160626455	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilevr88cv"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670160626735	Marionette	INFO	Marionette enabled
+1670160626739	Marionette	INFO	Listening on port 35639
+Read port: 35639
+1670160626839	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevr88cv/search.json.mozlz4", (void 0)))
+1670160632806	Marionette	INFO	Stopped listening on port 35639
+1670160633564	geckodriver	INFO	Listening on 127.0.0.1:33515
+1670160634577	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile63uDLo"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670160634845	Marionette	INFO	Marionette enabled
+1670160634849	Marionette	INFO	Listening on port 34073
+Read port: 34073
+1670160634945	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile63uDLo/search.json.mozlz4", (void 0)))
+[Child 3231, MediaDecoderStateMachine #1] WARNING: Decoder=7f6191bd9100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670160643339	Marionette	INFO	Stopped listening on port 34073
+1670160644222	geckodriver	INFO	Listening on 127.0.0.1:55017
+1670160645235	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilewU86n0"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670160645506	Marionette	INFO	Marionette enabled
+1670160645510	Marionette	INFO	Listening on port 38881
+Read port: 38881
+1670160645608	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewU86n0/search.json.mozlz4", (void 0)))
+1670160651805	Marionette	INFO	Stopped listening on port 38881
+JavaScript error: resource://devtools/client/jsonview/Sniffer.sys.mjs, line 53: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7fc84b797a00"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7fc84b796100"
+1670160652561	geckodriver	INFO	Listening on 127.0.0.1:57783
+1670160653567	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileQ8eK7x"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670160653887	Marionette	INFO	Marionette enabled
+1670160653895	Marionette	INFO	Listening on port 37747
+Read port: 37747
+1670160654040	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQ8eK7x/search.json.mozlz4", (void 0)))
+[Child 3881, MediaDecoderStateMachine #1] WARNING: Decoder=7f08e6bdb400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670160660431	Marionette	INFO	Stopped listening on port 37747
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7fdff5adeb00"
+1670160661386	geckodriver	INFO	Listening on 127.0.0.1:46197
+1670160662395	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofiles37imJ"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670160662664	Marionette	INFO	Marionette enabled
+1670160662669	Marionette	INFO	Listening on port 45043
+Read port: 45043
+1670160662767	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiles37imJ/search.json.mozlz4", (void 0)))
+[Child 4236, MediaDecoderStateMachine #1] WARNING: Decoder=7fe6b9903d00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670160669355	Marionette	INFO	Stopped listening on port 45043
+1670160670175	geckodriver	INFO	Listening on 127.0.0.1:36677
+1670160671183	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilefAd9C2"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670160671494	Marionette	INFO	Marionette enabled
+1670160671499	Marionette	INFO	Listening on port 42207
+Read port: 42207
+1670160671932	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefAd9C2/search.json.mozlz4", (void 0)))
+[Child 4570, MediaDecoderStateMachine #1] WARNING: Decoder=7fb6ff2e0100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670160678224	Marionette	INFO	Stopped listening on port 42207
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7fae3d925a00"
+1670160679396	geckodriver	INFO	Listening on 127.0.0.1:51155
+1670160680414	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilekc6yps"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670160680682	Marionette	INFO	Marionette enabled
+1670160680686	Marionette	INFO	Listening on port 39979
+Read port: 39979
+1670160680776	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekc6yps/search.json.mozlz4", (void 0)))
+1670160686904	Marionette	INFO	Stopped listening on port 39979
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7fac87e8b400"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7fac87e8be00"
+1670160687898	geckodriver	INFO	Listening on 127.0.0.1:54841
+1670160688922	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile1RQh1k"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670160689199	Marionette	INFO	Marionette enabled
+1670160689204	Marionette	INFO	Listening on port 39381
+Read port: 39381
+1670160689301	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1RQh1k/search.json.mozlz4", (void 0)))
+[Child 5254, MediaDecoderStateMachine #1] WARNING: Decoder=7fd94f8da700 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670160696205	Marionette	INFO	Stopped listening on port 39381
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f3fbcd22100"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f3fbcd22600"
+1670160697034	geckodriver	INFO	Listening on 127.0.0.1:58953
+1670160698046	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilehMfsTE"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670160698333	Marionette	INFO	Marionette enabled
+1670160698337	Marionette	INFO	Listening on port 43451
+Read port: 43451
+1670160698434	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehMfsTE/search.json.mozlz4", (void 0)))
+1670160706330	Marionette	INFO	Stopped listening on port 43451
+JavaScript error: resource://devtools/client/jsonview/Sniffer.sys.mjs, line 53: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+1670160707184	geckodriver	INFO	Listening on 127.0.0.1:58079
+1670160708374	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileslYpcA"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670160708652	Marionette	INFO	Marionette enabled
+1670160708657	Marionette	INFO	Listening on port 41909
+Read port: 41909
+1670160708746	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileslYpcA/search.json.mozlz4", (void 0)))
+1670160715097	Marionette	INFO	Stopped listening on port 41909
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7ff6cac24000"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7ff6cac26300"
+1670160715864	geckodriver	INFO	Listening on 127.0.0.1:54055
+1670160716875	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilec2ud4S"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670160717160	Marionette	INFO	Marionette enabled
+1670160717164	Marionette	INFO	Listening on port 46799
+Read port: 46799
+1670160717263	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilec2ud4S/search.json.mozlz4", (void 0)))
+[Child 6251, MediaDecoderStateMachine #1] WARNING: Decoder=7fb87b324100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 6251, MediaDecoderStateMachine #1] WARNING: Decoder=7fb87b324a00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670160726396	Marionette	INFO	Stopped listening on port 46799
+1670160727067	geckodriver	INFO	Listening on 127.0.0.1:38181
+1670160728072	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilehzmXnh"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670160728349	Marionette	INFO	Marionette enabled
+1670160728353	Marionette	INFO	Listening on port 41035
+Read port: 41035
+1670160728451	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehzmXnh/search.json.mozlz4", (void 0)))
+1670160735210	Marionette	INFO	Stopped listening on port 41035
+1670160735904	geckodriver	INFO	Listening on 127.0.0.1:40839
+1670160737006	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilevOAfAV"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670160737274	Marionette	INFO	Marionette enabled
+1670160737278	Marionette	INFO	Listening on port 34727
+Read port: 34727
+1670160737373	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevOAfAV/search.json.mozlz4", (void 0)))
+1670160741482	Marionette	INFO	Stopped listening on port 34727
+1670160742178	geckodriver	INFO	Listening on 127.0.0.1:50201
+1670160743180	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileEjUTpX"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670160743445	Marionette	INFO	Marionette enabled
+1670160743450	Marionette	INFO	Listening on port 39235
+Read port: 39235
+1670160743541	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEjUTpX/search.json.mozlz4", (void 0)))
+1670160747967	Marionette	INFO	Stopped listening on port 39235
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f1f10ba5d00"
+1670160748651	geckodriver	INFO	Listening on 127.0.0.1:39677
+1670160749662	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileDBuAOc"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670160749944	Marionette	INFO	Marionette enabled
+1670160749948	Marionette	INFO	Listening on port 33553
+Read port: 33553
+1670160750041	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDBuAOc/search.json.mozlz4", (void 0)))
+1670160757311	Marionette	INFO	Stopped listening on port 33553
+1670160758023	geckodriver	INFO	Listening on 127.0.0.1:33501
+1670160759032	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileQbxguS"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670160759320	Marionette	INFO	Marionette enabled
+1670160759325	Marionette	INFO	Listening on port 42599
+Read port: 42599
+1670160759412	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQbxguS/search.json.mozlz4", (void 0)))
+1670160766919	Marionette	INFO	Stopped listening on port 42599
+JavaScript error: resource://devtools/client/jsonview/Sniffer.sys.mjs, line 53: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+1670160767606	geckodriver	INFO	Listening on 127.0.0.1:47071
+1670160768616	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilerCUEYT"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670160768917	Marionette	INFO	Marionette enabled
+1670160768921	Marionette	INFO	Listening on port 35883
+Read port: 35883
+1670160769305	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerCUEYT/search.json.mozlz4", (void 0)))
+[Child 7999, MediaDecoderStateMachine #1] WARNING: Decoder=7fa77b134700 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 7999, MediaDecoderStateMachine #1] WARNING: Decoder=7fa77b134400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670160775516	Marionette	INFO	Stopped listening on port 35883
+1670160776305	geckodriver	INFO	Listening on 127.0.0.1:57621
+1670160777311	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileV1YoBR"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670160777578	Marionette	INFO	Marionette enabled
+1670160777582	Marionette	INFO	Listening on port 45801
+Read port: 45801
+1670160777680	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileV1YoBR/search.json.mozlz4", (void 0)))
+[Child 8310, MediaDecoderStateMachine #1] WARNING: Decoder=7f6da7bd6400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670160785529	Marionette	INFO	Stopped listening on port 45801
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f8cea776500"
+1670160786617	geckodriver	INFO	Listening on 127.0.0.1:52965
+1670160787616	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile5nfiPA"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670160787910	Marionette	INFO	Marionette enabled
+1670160787915	Marionette	INFO	Listening on port 40703
+Read port: 40703
+1670160788006	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5nfiPA/search.json.mozlz4", (void 0)))
+[Child 8718, MediaDecoderStateMachine #1] WARNING: Decoder=7ff2e6a91700 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670160794737	Marionette	INFO	Stopped listening on port 40703
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7fac46c63b00"
+1670160795584	geckodriver	INFO	Listening on 127.0.0.1:43997
+1670160796613	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileyHZcf9"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670160796904	Marionette	INFO	Marionette enabled
+1670160796908	Marionette	INFO	Listening on port 33181
+Read port: 33181
+1670160797002	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyHZcf9/search.json.mozlz4", (void 0)))
+[Child 9110, MediaDecoderStateMachine #1] WARNING: Decoder=7fec60174100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 9110, MediaDecoderStateMachine #1] WARNING: Decoder=7fec60174100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670160804379	Marionette	INFO	Stopped listening on port 33181
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f40bc508500"
+1670160805643	geckodriver	INFO	Listening on 127.0.0.1:42539
+1670160806686	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofiletxNjcU"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670160806987	Marionette	INFO	Marionette enabled
+1670160806991	Marionette	INFO	Listening on port 32771
+Read port: 32771
+1670160807397	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletxNjcU/search.json.mozlz4", (void 0)))
+1670160816873	Marionette	INFO	Stopped listening on port 32771
+1670160817620	geckodriver	INFO	Listening on 127.0.0.1:34327
+1670160818629	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileSTIc5E"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670160818933	Marionette	INFO	Marionette enabled
+1670160818937	Marionette	INFO	Listening on port 34341
+Read port: 34341
+1670160819346	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSTIc5E/search.json.mozlz4", (void 0)))
+[Child 9804, MediaDecoderStateMachine #1] WARNING: Decoder=7fbf231b4100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670160825436	Marionette	INFO	Stopped listening on port 34341
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7ff9524b7f00"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7ff9524bb100"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7ff953a65e00"
+1670160826245	geckodriver	INFO	Listening on 127.0.0.1:39299
+1670160827256	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilePxSuLc"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670160827546	Marionette	INFO	Marionette enabled
+1670160827551	Marionette	INFO	Listening on port 35971
+Read port: 35971
+1670160827637	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePxSuLc/search.json.mozlz4", (void 0)))
+[Child 10163, MediaDecoderStateMachine #1] WARNING: Decoder=7fba5b92bd00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670160833671	Marionette	INFO	Stopped listening on port 35971
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f8de306a000"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f8de306a500"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f8de306af00"
+1670160834594	geckodriver	INFO	Listening on 127.0.0.1:45693
+1670160835600	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileE6u01l"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670160835919	Marionette	INFO	Marionette enabled
+1670160835925	Marionette	INFO	Listening on port 40281
+Read port: 40281
+1670160836155	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileE6u01l/search.json.mozlz4", (void 0)))
+[Child 10570, MediaDecoderStateMachine #1] WARNING: Decoder=7f4636d2ad00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 139: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 139: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 139: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 139: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1670160845090	Marionette	INFO	Stopped listening on port 40281
+1670160846052	geckodriver	INFO	Listening on 127.0.0.1:46877
+1670160847063	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileUTebix"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670160847333	Marionette	INFO	Marionette enabled
+1670160847337	Marionette	INFO	Listening on port 33815
+Read port: 33815
+1670160847454	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUTebix/search.json.mozlz4", (void 0)))
+[Child 10957, MediaDecoderStateMachine #1] WARNING: Decoder=7fcd290da700 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670160874183	Marionette	INFO	Stopped listening on port 33815
+1670160874904	geckodriver	INFO	Listening on 127.0.0.1:47909
+1670160875916	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile982YZG"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670160876229	Marionette	INFO	Marionette enabled
+1670160876234	Marionette	INFO	Listening on port 45869
+Read port: 45869
+1670160876615	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile982YZG/search.json.mozlz4", (void 0)))
+1670160884981	Marionette	INFO	Stopped listening on port 45869
+1670164007565	geckodriver	INFO	Listening on 127.0.0.1:58283
+1670164008571	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofiledNrtuk"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164008807	Marionette	INFO	Marionette enabled
+1670164008810	Marionette	INFO	Listening on port 36459
+Read port: 36459
+1670164009180	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledNrtuk/search.json.mozlz4", (void 0)))
+1670164014202	Marionette	INFO	Stopped listening on port 36459
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7fcc8bff6000"
+1670164014771	geckodriver	INFO	Listening on 127.0.0.1:36865
+1670164015776	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileFag7MG"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164015970	Marionette	INFO	Marionette enabled
+1670164015973	Marionette	INFO	Listening on port 36405
+Read port: 36405
+1670164016083	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFag7MG/search.json.mozlz4", (void 0)))
+JavaScript warning: https://cdn.adhigh.net/adserver/vp.js?cb=2562482222, line 26: WebGL warning: <Create>: AllowWebgl2:false restricts context creation on this system.
+JavaScript warning: https://cdn.adhigh.net/adserver/vp.js?cb=2562482222, line 26: Failed to create WebGL context: WebGL creation failed: 
+* AllowWebgl2:false restricts context creation on this system. ()
+1670164021362	Marionette	INFO	Stopped listening on port 36405
+1670164022097	geckodriver	INFO	Listening on 127.0.0.1:56175
+1670164023100	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilez5bcep"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164023303	Marionette	INFO	Marionette enabled
+1670164023307	Marionette	INFO	Listening on port 37373
+Read port: 37373
+1670164023617	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilez5bcep/search.json.mozlz4", (void 0)))
+[Child 13920, MediaDecoderStateMachine #1] WARNING: Decoder=7f737d0dd700 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670164043037	Marionette	INFO	Stopped listening on port 37373
+1670164043617	geckodriver	INFO	Listening on 127.0.0.1:39085
+1670164044616	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile0BuJ0N"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164044801	Marionette	INFO	Marionette enabled
+1670164044804	Marionette	INFO	Listening on port 33809
+Read port: 33809
+1670164044867	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0BuJ0N/search.json.mozlz4", (void 0)))
+[Child 14200, MediaDecoderStateMachine #1] WARNING: Decoder=7f5f81056100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670164050357	Marionette	INFO	Stopped listening on port 33809
+1670164051169	geckodriver	INFO	Listening on 127.0.0.1:38303
+1670164052176	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilepFaqve"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164052370	Marionette	INFO	Marionette enabled
+1670164052373	Marionette	INFO	Listening on port 36523
+Read port: 36523
+1670164052456	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepFaqve/search.json.mozlz4", (void 0)))
+[Child 14526, MediaDecoderStateMachine #1] WARNING: Decoder=7f68fd854100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670164057395	Marionette	INFO	Stopped listening on port 36523
+1670164058009	geckodriver	INFO	Listening on 127.0.0.1:51525
+1670164059013	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileqFsWlj"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164059217	Marionette	INFO	Marionette enabled
+1670164059220	Marionette	INFO	Listening on port 41451
+Read port: 41451
+1670164059499	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqFsWlj/search.json.mozlz4", (void 0)))
+[Child 14853, MediaDecoderStateMachine #1] WARNING: Decoder=7f68baed4e00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670164064503	Marionette	INFO	Stopped listening on port 41451
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7fd7dae28100"
+1670164065191	geckodriver	INFO	Listening on 127.0.0.1:35047
+1670164066204	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileSTI2ep"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164066400	Marionette	INFO	Marionette enabled
+1670164066403	Marionette	INFO	Listening on port 45715
+Read port: 45715
+1670164066497	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSTI2ep/search.json.mozlz4", (void 0)))
+1670164071741	Marionette	INFO	Stopped listening on port 45715
+JavaScript error: resource://devtools/client/jsonview/Sniffer.sys.mjs, line 53: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f65b3fd6900"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f65b3fd7800"
+1670164072437	geckodriver	INFO	Listening on 127.0.0.1:51575
+1670164073510	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilef1gLSt"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164073706	Marionette	INFO	Marionette enabled
+1670164073709	Marionette	INFO	Listening on port 40339
+Read port: 40339
+1670164073791	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilef1gLSt/search.json.mozlz4", (void 0)))
+1670164080755	Marionette	INFO	Stopped listening on port 40339
+1670164081576	geckodriver	INFO	Listening on 127.0.0.1:34771
+1670164082635	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileJ20Dj6"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164082843	Marionette	INFO	Marionette enabled
+1670164082846	Marionette	INFO	Listening on port 42009
+Read port: 42009
+1670164083369	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJ20Dj6/search.json.mozlz4", (void 0)))
+[Child 15793, MediaDecoderStateMachine #1] WARNING: Decoder=7fc9530da400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670164088586	Marionette	INFO	Stopped listening on port 42009
+1670164089748	geckodriver	INFO	Listening on 127.0.0.1:46153
+1670164090754	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofiles7cQwM"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164090945	Marionette	INFO	Marionette enabled
+1670164090948	Marionette	INFO	Listening on port 35905
+Read port: 35905
+1670164091016	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiles7cQwM/search.json.mozlz4", (void 0)))
+[Child 16113, MediaDecoderStateMachine #1] WARNING: Decoder=7f18fa2d7700 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670164099149	Marionette	INFO	Stopped listening on port 35905
+1670164100022	geckodriver	INFO	Listening on 127.0.0.1:56669
+1670164101030	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilevvC6xT"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164101219	Marionette	INFO	Marionette enabled
+1670164101222	Marionette	INFO	Listening on port 38431
+Read port: 38431
+1670164101308	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevvC6xT/search.json.mozlz4", (void 0)))
+[Child 16465, MediaDecoderStateMachine #1] WARNING: Decoder=7f6e3a4d9100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670164106493	Marionette	INFO	Stopped listening on port 38431
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f7a74f5af00"
+1670164107369	geckodriver	INFO	Listening on 127.0.0.1:51823
+1670164108367	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilec7QMrZ"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164108568	Marionette	INFO	Marionette enabled
+1670164108571	Marionette	INFO	Listening on port 45727
+Read port: 45727
+1670164108924	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilec7QMrZ/search.json.mozlz4", (void 0)))
+[Child 16801, MediaDecoderStateMachine #1] WARNING: Decoder=7f9d4031c400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 16801, MediaDecoderStateMachine #1] WARNING: Decoder=7f9d4031c400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670164114054	Marionette	INFO	Stopped listening on port 45727
+1670164114888	geckodriver	INFO	Listening on 127.0.0.1:60441
+1670164115945	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileGzMpWq"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164116142	Marionette	INFO	Marionette enabled
+1670164116145	Marionette	INFO	Listening on port 46659
+Read port: 46659
+1670164116239	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGzMpWq/search.json.mozlz4", (void 0)))
+1670164121978	Marionette	INFO	Stopped listening on port 46659
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7fdb428db100"
+1670164122778	geckodriver	INFO	Listening on 127.0.0.1:40647
+1670164123838	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilerPnWEi"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164124031	Marionette	INFO	Marionette enabled
+1670164124034	Marionette	INFO	Listening on port 45611
+Read port: 45611
+1670164124127	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerPnWEi/search.json.mozlz4", (void 0)))
+[Child 17488, MediaDecoderStateMachine #1] WARNING: Decoder=7f17431e0100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670164129922	Marionette	INFO	Stopped listening on port 45611
+1670164130789	geckodriver	INFO	Listening on 127.0.0.1:41723
+1670164131794	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile0qoPxi"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164131985	Marionette	INFO	Marionette enabled
+1670164131988	Marionette	INFO	Listening on port 34485
+Read port: 34485
+1670164132072	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0qoPxi/search.json.mozlz4", (void 0)))
+[Child 17826, MediaDecoderStateMachine #1] WARNING: Decoder=7f7f25dde700 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670164137918	Marionette	INFO	Stopped listening on port 34485
+1670164138712	geckodriver	INFO	Listening on 127.0.0.1:51845
+1670164139717	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileETtUpF"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164139910	Marionette	INFO	Marionette enabled
+1670164139913	Marionette	INFO	Listening on port 42361
+Read port: 42361
+1670164140021	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileETtUpF/search.json.mozlz4", (void 0)))
+[Child 18190, MediaDecoderStateMachine #1] WARNING: Decoder=7f99e144e100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 18190, MediaDecoderStateMachine #1] WARNING: Decoder=7f99e144ed00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670164146725	Marionette	INFO	Stopped listening on port 42361
+1670164147416	geckodriver	INFO	Listening on 127.0.0.1:56537
+1670164148426	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile8ZOMu1"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164148635	Marionette	INFO	Marionette enabled
+1670164148638	Marionette	INFO	Listening on port 45493
+Read port: 45493
+1670164148978	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8ZOMu1/search.json.mozlz4", (void 0)))
+[Child 18573, MediaDecoderStateMachine #1] WARNING: Decoder=7fb56c5db400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670164154535	Marionette	INFO	Stopped listening on port 45493
+JavaScript error: resource://devtools/client/jsonview/Sniffer.sys.mjs, line 53: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+1670164155201	geckodriver	INFO	Listening on 127.0.0.1:43073
+1670164156199	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileYmGO2I"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164156397	Marionette	INFO	Marionette enabled
+1670164156400	Marionette	INFO	Listening on port 40409
+Read port: 40409
+1670164156787	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileYmGO2I/search.json.mozlz4", (void 0)))
+[Child 18932, MediaDecoderStateMachine #1] WARNING: Decoder=7facedf0df00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 18932, MediaDecoderStateMachine #1] WARNING: Decoder=7facedf0e200 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670164221198	Marionette	INFO	Stopped listening on port 40409
+1670164221756	geckodriver	INFO	Listening on 127.0.0.1:32863
+1670164222753	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile6xItDL"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164223030	Marionette	INFO	Marionette enabled
+1670164223035	Marionette	INFO	Listening on port 43757
+Read port: 43757
+1670164223123	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6xItDL/search.json.mozlz4", (void 0)))
+[Child 19397, MediaDecoderStateMachine #1] WARNING: Decoder=7f79589b3400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670164229013	Marionette	INFO	Stopped listening on port 43757
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f788da7f200"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f788da7e800"
+1670164229909	geckodriver	INFO	Listening on 127.0.0.1:43447
+1670164230907	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilespbqqb"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164231125	Marionette	INFO	Marionette enabled
+1670164231129	Marionette	INFO	Listening on port 43059
+Read port: 43059
+1670164231588	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilespbqqb/search.json.mozlz4", (void 0)))
+1670164239400	Marionette	INFO	Stopped listening on port 43059
+1670164240217	geckodriver	INFO	Listening on 127.0.0.1:33833
+1670164241221	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilekYlfef"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164241429	Marionette	INFO	Marionette enabled
+1670164241432	Marionette	INFO	Listening on port 37117
+Read port: 37117
+1670164241877	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekYlfef/search.json.mozlz4", (void 0)))
+[Child 20059, MediaDecoderStateMachine #1] WARNING: Decoder=7fa55e2ae000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 20059, MediaDecoderStateMachine #1] WARNING: Decoder=7fa55e2ae000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 20113, MediaDecoderStateMachine #1] WARNING: Decoder=7f498dafa400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670164248615	Marionette	INFO	Stopped listening on port 37117
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7fa717c4a300"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7fa717545100"
+1670164249616	geckodriver	INFO	Listening on 127.0.0.1:38913
+1670164250618	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile6pesSF"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164250893	Marionette	INFO	Marionette enabled
+1670164250898	Marionette	INFO	Listening on port 42051
+Read port: 42051
+1670164250988	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6pesSF/search.json.mozlz4", (void 0)))
+1670164254911	Marionette	INFO	Stopped listening on port 42051
+1670164255593	geckodriver	INFO	Listening on 127.0.0.1:41241
+1670164256681	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilebhOok3"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164257056	Marionette	INFO	Marionette enabled
+1670164257060	Marionette	INFO	Listening on port 44571
+Read port: 44571
+1670164257154	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebhOok3/search.json.mozlz4", (void 0)))
+[Child 20709, MediaDecoderStateMachine #1] WARNING: Decoder=7f8b175de100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670164263357	Marionette	INFO	Stopped listening on port 44571
+1670164264051	geckodriver	INFO	Listening on 127.0.0.1:59605
+1670164265062	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileFIch3q"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164265267	Marionette	INFO	Marionette enabled
+1670164265270	Marionette	INFO	Listening on port 45393
+Read port: 45393
+1670164265559	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFIch3q/search.json.mozlz4", (void 0)))
+1670164271357	Marionette	INFO	Stopped listening on port 45393
+1670164271913	geckodriver	INFO	Listening on 127.0.0.1:40285
+1670164272931	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile57gb8n"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164273133	Marionette	INFO	Marionette enabled
+1670164273136	Marionette	INFO	Listening on port 41069
+Read port: 41069
+1670164273451	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile57gb8n/search.json.mozlz4", (void 0)))
+[Child 21275, MediaDecoderStateMachine #1] WARNING: Decoder=7f54eb5dc400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670164279717	Marionette	INFO	Stopped listening on port 41069
+1670164280491	geckodriver	INFO	Listening on 127.0.0.1:53429
+1670164281491	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilekTYife"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164281684	Marionette	INFO	Marionette enabled
+1670164281688	Marionette	INFO	Listening on port 46865
+Read port: 46865
+1670164281775	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekTYife/search.json.mozlz4", (void 0)))
+[Child 21661, MediaDecoderStateMachine #1] WARNING: Decoder=7f10a36d8700 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670164289261	Marionette	INFO	Stopped listening on port 46865
+1670164373864	geckodriver	INFO	Listening on 127.0.0.1:46929
+1670164374907	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileiTeH3P"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164375101	Marionette	INFO	Marionette enabled
+1670164375104	Marionette	INFO	Listening on port 41219
+Read port: 41219
+1670164375192	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileiTeH3P/search.json.mozlz4", (void 0)))
+1670164378801	Marionette	INFO	Stopped listening on port 41219
+1670164379447	geckodriver	INFO	Listening on 127.0.0.1:34173
+1670164380453	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilejZishE"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164380644	Marionette	INFO	Marionette enabled
+1670164380647	Marionette	INFO	Listening on port 35525
+Read port: 35525
+1670164380787	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejZishE/search.json.mozlz4", (void 0)))
+1670164386803	Marionette	INFO	Stopped listening on port 35525
+1670164387478	geckodriver	INFO	Listening on 127.0.0.1:35017
+1670164388482	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilerk0Glu"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164388672	Marionette	INFO	Marionette enabled
+1670164388675	Marionette	INFO	Listening on port 45665
+Read port: 45665
+1670164388764	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerk0Glu/search.json.mozlz4", (void 0)))
+1670164394123	Marionette	INFO	Stopped listening on port 45665
+JavaScript error: resource://devtools/client/jsonview/Sniffer.sys.mjs, line 53: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+1670164394814	geckodriver	INFO	Listening on 127.0.0.1:46051
+1670164395829	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileZLmOAG"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164396035	Marionette	INFO	Marionette enabled
+1670164396038	Marionette	INFO	Listening on port 41465
+Read port: 41465
+1670164396463	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZLmOAG/search.json.mozlz4", (void 0)))
+1670164401727	Marionette	INFO	Stopped listening on port 41465
+1670164402367	geckodriver	INFO	Listening on 127.0.0.1:47889
+1670164403395	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilegmBl9f"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164403581	Marionette	INFO	Marionette enabled
+1670164403585	Marionette	INFO	Listening on port 36575
+Read port: 36575
+1670164403651	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegmBl9f/search.json.mozlz4", (void 0)))
+[Child 23218, MediaDecoderStateMachine #1] WARNING: Decoder=7fd7a1bde400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670164409873	Marionette	INFO	Stopped listening on port 36575
+1670164410696	geckodriver	INFO	Listening on 127.0.0.1:53405
+1670164411697	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile74bWkr"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164411885	Marionette	INFO	Marionette enabled
+1670164411888	Marionette	INFO	Listening on port 36563
+Read port: 36563
+1670164411949	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile74bWkr/search.json.mozlz4", (void 0)))
+[Child 23570, MediaDecoderStateMachine #1] WARNING: Decoder=7fc70c904000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670164417575	Marionette	INFO	Stopped listening on port 36563
+JavaScript error: resource://devtools/client/jsonview/Sniffer.sys.mjs, line 53: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+1670164418265	geckodriver	INFO	Listening on 127.0.0.1:43749
+1670164419385	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile2bwO4H"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164419580	Marionette	INFO	Marionette enabled
+1670164419583	Marionette	INFO	Listening on port 34669
+Read port: 34669
+1670164419693	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2bwO4H/search.json.mozlz4", (void 0)))
+[Child 23886, MediaDecoderStateMachine #1] WARNING: Decoder=7f1887ce8100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670164425350	Marionette	INFO	Stopped listening on port 34669
+1670164426197	geckodriver	INFO	Listening on 127.0.0.1:45025
+1670164427198	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileBM75aB"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164427386	Marionette	INFO	Marionette enabled
+1670164427389	Marionette	INFO	Listening on port 35175
+Read port: 35175
+1670164427451	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBM75aB/search.json.mozlz4", (void 0)))
+1670164431220	Marionette	INFO	Stopped listening on port 35175
+1670164431886	geckodriver	INFO	Listening on 127.0.0.1:33041
+1670164432886	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile2oVohZ"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164433094	Marionette	INFO	Marionette enabled
+1670164433097	Marionette	INFO	Listening on port 34803
+Read port: 34803
+1670164433393	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2oVohZ/search.json.mozlz4", (void 0)))
+1670164438769	Marionette	INFO	Stopped listening on port 34803
+1670164439431	geckodriver	INFO	Listening on 127.0.0.1:41715
+1670164440476	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileI3pNuJ"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164440670	Marionette	INFO	Marionette enabled
+1670164440674	Marionette	INFO	Listening on port 35689
+Read port: 35689
+1670164440764	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileI3pNuJ/search.json.mozlz4", (void 0)))
+[Child 24794, MediaDecoderStateMachine #1] WARNING: Decoder=7fcb251d6d00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670164447048	Marionette	INFO	Stopped listening on port 35689
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f76963d2400"
+1670164447723	geckodriver	INFO	Listening on 127.0.0.1:47403
+1670164448764	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile3vEZiL"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164448956	Marionette	INFO	Marionette enabled
+1670164448960	Marionette	INFO	Listening on port 44495
+Read port: 44495
+1670164449044	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3vEZiL/search.json.mozlz4", (void 0)))
+1670164454593	Marionette	INFO	Stopped listening on port 44495
+1670164457286	geckodriver	INFO	Listening on 127.0.0.1:43197
+1670164458444	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileqWmsxr"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164458631	Marionette	INFO	Marionette enabled
+1670164458634	Marionette	INFO	Listening on port 35929
+Read port: 35929
+1670164458723	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqWmsxr/search.json.mozlz4", (void 0)))
+[Child 25452, MediaDecoderStateMachine #1] WARNING: Decoder=7f0577e41e00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 25452, MediaDecoderStateMachine #1] WARNING: Decoder=7f0577e42100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670164464291	Marionette	INFO	Stopped listening on port 35929
+JavaScript error: resource://devtools/client/jsonview/Sniffer.sys.mjs, line 53: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+1670164465097	geckodriver	INFO	Listening on 127.0.0.1:55439
+1670164466098	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileKIF4bj"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164466289	Marionette	INFO	Marionette enabled
+1670164466292	Marionette	INFO	Listening on port 45799
+Read port: 45799
+1670164466385	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKIF4bj/search.json.mozlz4", (void 0)))
+[Child 25838, MediaDecoderStateMachine #1] WARNING: Decoder=7f2434ed5700 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670164471698	Marionette	INFO	Stopped listening on port 45799
+1670164472440	geckodriver	INFO	Listening on 127.0.0.1:43635
+1670164473550	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilebc3fqG"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164473742	Marionette	INFO	Marionette enabled
+1670164473745	Marionette	INFO	Listening on port 42289
+Read port: 42289
+1670164473830	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebc3fqG/search.json.mozlz4", (void 0)))
+1670164477419	Marionette	INFO	Stopped listening on port 42289
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7fb4fb580700"
+1670164478081	geckodriver	INFO	Listening on 127.0.0.1:34213
+1670164479081	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileEDLHn9"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164479277	Marionette	INFO	Marionette enabled
+1670164479280	Marionette	INFO	Listening on port 36815
+Read port: 36815
+1670164479364	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEDLHn9/search.json.mozlz4", (void 0)))
+1670164482899	Marionette	INFO	Stopped listening on port 36815
+1670164483555	geckodriver	INFO	Listening on 127.0.0.1:45737
+1670164484580	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileL2mn1O"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164484775	Marionette	INFO	Marionette enabled
+1670164484778	Marionette	INFO	Listening on port 36371
+Read port: 36371
+1670164484869	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileL2mn1O/search.json.mozlz4", (void 0)))
+[Child 26646, MediaDecoderStateMachine #1] WARNING: Decoder=7fdc44873400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 26646, MediaDecoderStateMachine #1] WARNING: Decoder=7fdc45737300 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670164490060	Marionette	INFO	Stopped listening on port 36371
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7fa02a61f000"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7fa029c07700"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7fa029c04a00"
+1670164490879	geckodriver	INFO	Listening on 127.0.0.1:47301
+1670164491880	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileCaiCm6"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164492080	Marionette	INFO	Marionette enabled
+1670164492083	Marionette	INFO	Listening on port 38017
+Read port: 38017
+1670164492388	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCaiCm6/search.json.mozlz4", (void 0)))
+1670164497375	Marionette	INFO	Stopped listening on port 38017
+1670164498210	geckodriver	INFO	Listening on 127.0.0.1:35573
+1670164499209	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileuxgcOM"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164499401	Marionette	INFO	Marionette enabled
+1670164499404	Marionette	INFO	Listening on port 35285
+Read port: 35285
+1670164499622	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuxgcOM/search.json.mozlz4", (void 0)))
+[Child 27289, MediaDecoderStateMachine #1] WARNING: Decoder=7fb61a817100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 27289, MediaDecoderStateMachine #1] WARNING: Decoder=7fb61a817400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670164507523	Marionette	INFO	Stopped listening on port 35285
+1670164508421	geckodriver	INFO	Listening on 127.0.0.1:52369
+1670164509511	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilepdzsmA"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164509699	Marionette	INFO	Marionette enabled
+1670164509702	Marionette	INFO	Listening on port 36479
+Read port: 36479
+1670164509829	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepdzsmA/search.json.mozlz4", (void 0)))
+[Child 27639, MediaDecoderStateMachine #1] WARNING: Decoder=7fd147fe1100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670164515287	Marionette	INFO	Stopped listening on port 36479
+1670164516028	geckodriver	INFO	Listening on 127.0.0.1:56829
+1670164517031	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileNzGrNM"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164517237	Marionette	INFO	Marionette enabled
+1670164517240	Marionette	INFO	Listening on port 39259
+Read port: 39259
+1670164517723	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNzGrNM/search.json.mozlz4", (void 0)))
+[Child 27962, MediaDecoderStateMachine #1] WARNING: Decoder=7f6fd40dc700 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 170: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 170: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 170: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 170: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1670164523390	Marionette	INFO	Stopped listening on port 39259
+1670164524376	geckodriver	INFO	Listening on 127.0.0.1:40425
+1670164525397	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileFujwcB"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164525590	Marionette	INFO	Marionette enabled
+1670164525593	Marionette	INFO	Listening on port 45163
+Read port: 45163
+1670164525899	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFujwcB/search.json.mozlz4", (void 0)))
+[Child 28310, MediaDecoderStateMachine #1] WARNING: Decoder=7f8031261c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 28310, MediaDecoderStateMachine #1] WARNING: Decoder=7f8031261c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 28351, MediaDecoderStateMachine #1] WARNING: Decoder=7f0cd92d7100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670164562515	Marionette	INFO	Stopped listening on port 45163
+1670164563497	geckodriver	INFO	Listening on 127.0.0.1:55405
+1670164564506	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileyKd2Ud"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164564874	Marionette	INFO	Marionette enabled
+1670164564881	Marionette	INFO	Listening on port 36817
+Read port: 36817
+1670164565002	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyKd2Ud/search.json.mozlz4", (void 0)))
+[Child 28692, MediaDecoderStateMachine #1] WARNING: Decoder=7f9295b49400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 28692, MediaDecoderStateMachine #1] WARNING: Decoder=7f9295b48800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670164573864	Marionette	INFO	Stopped listening on port 36817
+1670164575013	geckodriver	INFO	Listening on 127.0.0.1:50499
+1670164576032	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileCmSird"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164576397	Marionette	INFO	Marionette enabled
+1670164576405	Marionette	INFO	Listening on port 42477
+Read port: 42477
+1670164576530	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCmSird/search.json.mozlz4", (void 0)))
+[Child 29069, MediaDecoderStateMachine #1] WARNING: Decoder=7fddbc0dfe00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670164584614	Marionette	INFO	Stopped listening on port 42477
+1670164585689	geckodriver	INFO	Listening on 127.0.0.1:49195
+1670164586659	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile1MNyEM"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164586987	Marionette	INFO	Marionette enabled
+1670164586993	Marionette	INFO	Listening on port 38013
+Read port: 38013
+1670164587226	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1MNyEM/search.json.mozlz4", (void 0)))
+[Child 29450, MediaDecoderStateMachine #1] WARNING: Decoder=7f0bc0bdce00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670164593372	Marionette	INFO	Stopped listening on port 38013
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f5735d82f00"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f5735d85700"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f5735a08100"
+1670164594391	geckodriver	INFO	Listening on 127.0.0.1:47941
+1670164595420	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilexVvVCI"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164595640	Marionette	INFO	Marionette enabled
+1670164595643	Marionette	INFO	Listening on port 38835
+Read port: 38835
+1670164595948	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexVvVCI/search.json.mozlz4", (void 0)))
+1670164602125	Marionette	INFO	Stopped listening on port 38835
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f7c7f534f00"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f7c81a52800"
+1670164603088	geckodriver	INFO	Listening on 127.0.0.1:49601
+1670164604089	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilegI3gvm"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670164604291	Marionette	INFO	Marionette enabled
+1670164604295	Marionette	INFO	Listening on port 35585
+Read port: 35585
+1670164604603	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegI3gvm/search.json.mozlz4", (void 0)))
+[Child 30148, MediaDecoderStateMachine #1] WARNING: Decoder=7fd5eecb0400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670164610747	Marionette	INFO	Stopped listening on port 35585
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7fd406785a00"
+1670172689085	geckodriver	INFO	Listening on 127.0.0.1:39651
+1670172690085	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileXI0Xrj"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670172690327	Marionette	INFO	Marionette enabled
+1670172690331	Marionette	INFO	Listening on port 46487
+Read port: 46487
+1670172690524	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXI0Xrj/search.json.mozlz4", (void 0)))
+1670172696617	Marionette	INFO	Stopped listening on port 46487
+1670172697314	geckodriver	INFO	Listening on 127.0.0.1:49415
+1670172698312	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileIKdpsQ"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670172698526	Marionette	INFO	Marionette enabled
+1670172698530	Marionette	INFO	Listening on port 34855
+Read port: 34855
+1670172698873	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileIKdpsQ/search.json.mozlz4", (void 0)))
+1670172702509	Marionette	INFO	Stopped listening on port 34855
+1670172703330	geckodriver	INFO	Listening on 127.0.0.1:36813
+1670172704325	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileyBeVoL"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670172704553	Marionette	INFO	Marionette enabled
+1670172704557	Marionette	INFO	Listening on port 41319
+Read port: 41319
+1670172704894	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyBeVoL/search.json.mozlz4", (void 0)))
+1670172710252	Marionette	INFO	Stopped listening on port 41319
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f36880b9d00"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f36880b7a00"
+1670172711154	geckodriver	INFO	Listening on 127.0.0.1:51913
+1670172712150	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileElMhWi"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670172712483	Marionette	INFO	Marionette enabled
+1670172712489	Marionette	INFO	Listening on port 43377
+Read port: 43377
+1670172712621	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileElMhWi/search.json.mozlz4", (void 0)))
+1670172719033	Marionette	INFO	Stopped listening on port 43377
+1670172719772	geckodriver	INFO	Listening on 127.0.0.1:48319
+1670172720781	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileObKBbp"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670172721113	Marionette	INFO	Marionette enabled
+1670172721118	Marionette	INFO	Listening on port 37465
+Read port: 37465
+1670172721356	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileObKBbp/search.json.mozlz4", (void 0)))
+1670172728671	Marionette	INFO	Stopped listening on port 37465
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7fc57d6ae000"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7fc57d6b0800"
+1670172730513	geckodriver	INFO	Listening on 127.0.0.1:38487
+1670172731523	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileF4AVvk"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670172732134	Marionette	INFO	Marionette enabled
+1670172732142	Marionette	INFO	Listening on port 35627
+Read port: 35627
+1670172732293	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileF4AVvk/search.json.mozlz4", (void 0)))
+1670172743167	Marionette	INFO	Stopped listening on port 35627
+1670172744149	geckodriver	INFO	Listening on 127.0.0.1:48141
+1670172745155	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilejWKvmn"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670172745663	Marionette	INFO	Marionette enabled
+1670172745675	Marionette	INFO	Listening on port 35809
+Read port: 35809
+1670172745891	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejWKvmn/search.json.mozlz4", (void 0)))
+1670172758470	Marionette	INFO	Stopped listening on port 35809
+1670172759911	geckodriver	INFO	Listening on 127.0.0.1:37015
+1670172760912	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile6O2xef"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670172761547	Marionette	INFO	Marionette enabled
+1670172761558	Marionette	INFO	Listening on port 40043
+Read port: 40043
+1670172761787	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6O2xef/search.json.mozlz4", (void 0)))
+1670172769233	Marionette	INFO	Stopped listening on port 40043
+1670172769920	geckodriver	INFO	Listening on 127.0.0.1:33473
+1670172770919	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileQpqjuk"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670172771175	Marionette	INFO	Marionette enabled
+1670172771179	Marionette	INFO	Listening on port 46449
+Read port: 46449
+1670172771272	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQpqjuk/search.json.mozlz4", (void 0)))
+1670172777880	Marionette	INFO	Stopped listening on port 46449
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f44afe14b00"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f44afe0f100"
+1670172778686	geckodriver	INFO	Listening on 127.0.0.1:51439
+1670172779681	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilegc6HHi"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670172779902	Marionette	INFO	Marionette enabled
+1670172779908	Marionette	INFO	Listening on port 36115
+Read port: 36115
+1670172780125	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegc6HHi/search.json.mozlz4", (void 0)))
+1670172787128	Marionette	INFO	Stopped listening on port 36115
+1670172788047	geckodriver	INFO	Listening on 127.0.0.1:54871
+1670172789045	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilelR15gE"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670172789283	Marionette	INFO	Marionette enabled
+1670172789287	Marionette	INFO	Listening on port 38757
+Read port: 38757
+1670172789470	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelR15gE/search.json.mozlz4", (void 0)))
+1670172795985	Marionette	INFO	Stopped listening on port 38757
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f0479e76600"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f0479e77500"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f0479e79300"
+1670172799199	geckodriver	INFO	Listening on 127.0.0.1:48905
+1670172800221	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilezC1nL4"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670172800547	Marionette	INFO	Marionette enabled
+1670172800552	Marionette	INFO	Listening on port 32915
+Read port: 32915
+1670172800794	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezC1nL4/search.json.mozlz4", (void 0)))
+1670172807609	Marionette	INFO	Stopped listening on port 32915
+1670172810316	geckodriver	INFO	Listening on 127.0.0.1:52385
+1670172811321	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilemC1GkT"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670172811535	Marionette	INFO	Marionette enabled
+1670172811539	Marionette	INFO	Listening on port 41651
+Read port: 41651
+1670172811856	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemC1GkT/search.json.mozlz4", (void 0)))
+1670172817312	Marionette	INFO	Stopped listening on port 41651
+1670172818046	geckodriver	INFO	Listening on 127.0.0.1:53741
+1670172819035	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileDe97IK"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670172819250	Marionette	INFO	Marionette enabled
+1670172819253	Marionette	INFO	Listening on port 44157
+Read port: 44157
+1670172819566	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDe97IK/search.json.mozlz4", (void 0)))
+1670172829265	Marionette	INFO	Stopped listening on port 44157
+1670172830304	geckodriver	INFO	Listening on 127.0.0.1:51581
+1670172831304	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile90gDI2"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670172831534	Marionette	INFO	Marionette enabled
+1670172831539	Marionette	INFO	Listening on port 39695
+Read port: 39695
+1670172831860	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile90gDI2/search.json.mozlz4", (void 0)))
+1670172837264	Marionette	INFO	Stopped listening on port 39695
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f55eb2f6800"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f55eb2f8600"
+1670172838273	geckodriver	INFO	Listening on 127.0.0.1:40353
+1670172839292	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilenN1VPl"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670172839519	Marionette	INFO	Marionette enabled
+1670172839523	Marionette	INFO	Listening on port 40507
+Read port: 40507
+1670172839826	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenN1VPl/search.json.mozlz4", (void 0)))
+1670172845360	Marionette	INFO	Stopped listening on port 40507
+1670172846039	geckodriver	INFO	Listening on 127.0.0.1:55163
+1670172847057	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile4kThmI"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670172847314	Marionette	INFO	Marionette enabled
+1670172847317	Marionette	INFO	Listening on port 39881
+Read port: 39881
+1670172847396	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile4kThmI/search.json.mozlz4", (void 0)))
+1670172855716	Marionette	INFO	Stopped listening on port 39881
+1670172856577	geckodriver	INFO	Listening on 127.0.0.1:36819
+1670172857602	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileqldjrR"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670172857831	Marionette	INFO	Marionette enabled
+1670172857835	Marionette	INFO	Listening on port 40057
+Read port: 40057
+1670172858054	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqldjrR/search.json.mozlz4", (void 0)))
+1670172864228	Marionette	INFO	Stopped listening on port 40057
+1670172864962	geckodriver	INFO	Listening on 127.0.0.1:33599
+1670172865956	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilewrHFgg"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670172866211	Marionette	INFO	Marionette enabled
+1670172866214	Marionette	INFO	Listening on port 42993
+Read port: 42993
+1670172866307	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewrHFgg/search.json.mozlz4", (void 0)))
+1670172872788	Marionette	INFO	Stopped listening on port 42993
+1670172873506	geckodriver	INFO	Listening on 127.0.0.1:40339
+1670172874509	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileAb8mlb"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670172874744	Marionette	INFO	Marionette enabled
+1670172874748	Marionette	INFO	Listening on port 43009
+Read port: 43009
+1670172875072	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAb8mlb/search.json.mozlz4", (void 0)))
+1670172881530	Marionette	INFO	Stopped listening on port 43009
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7fb2f8016c00"
+1670172882638	geckodriver	INFO	Listening on 127.0.0.1:49263
+1670172883650	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileJCB8np"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670172883975	Marionette	INFO	Marionette enabled
+1670172883984	Marionette	INFO	Listening on port 42255
+Read port: 42255
+1670172884099	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJCB8np/search.json.mozlz4", (void 0)))
+1670172891008	Marionette	INFO	Stopped listening on port 42255
+1670172891666	geckodriver	INFO	Listening on 127.0.0.1:54519
+1670172892665	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileeBF3Yi"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670172892908	Marionette	INFO	Marionette enabled
+1670172892911	Marionette	INFO	Listening on port 32823
+Read port: 32823
+1670172893091	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileeBF3Yi/search.json.mozlz4", (void 0)))
+[Child 4846, MediaDecoderStateMachine #1] WARNING: Decoder=7f5972f82800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 4846, MediaDecoderStateMachine #1] WARNING: Decoder=7f5972f82800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for video/avc: file /build/firefox-Gxg1o7/firefox-107.0+build2/dom/media/MediaDecoderStateMachineBase.cpp:151
+1670172900656	Marionette	INFO	Stopped listening on port 32823
+1670172901674	geckodriver	INFO	Listening on 127.0.0.1:51961
+1670172902695	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilef2trIh"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670172902997	Marionette	INFO	Marionette enabled
+1670172903002	Marionette	INFO	Listening on port 40693
+Read port: 40693
+1670172903361	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilef2trIh/search.json.mozlz4", (void 0)))
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 170: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 170: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 170: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 170: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1670172912002	Marionette	INFO	Stopped listening on port 40693
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f439813b800"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f4397f97c00"
+1670172913874	geckodriver	INFO	Listening on 127.0.0.1:39915
+1670172914883	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilekiX6CJ"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670172915423	Marionette	INFO	Marionette enabled
+1670172915433	Marionette	INFO	Listening on port 39981
+Read port: 39981
+1670172915642	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekiX6CJ/search.json.mozlz4", (void 0)))
+1670172924115	Marionette	INFO	Stopped listening on port 39981
+1670172927090	geckodriver	INFO	Listening on 127.0.0.1:45413
+1670172928085	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileFqOFDm"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670172928388	Marionette	INFO	Marionette enabled
+1670172928393	Marionette	INFO	Listening on port 37637
+Read port: 37637
+1670172928805	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFqOFDm/search.json.mozlz4", (void 0)))
+1670172936719	Marionette	INFO	Stopped listening on port 37637
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f8f5737c000"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f8f5737ca00"
+1670172937952	geckodriver	INFO	Listening on 127.0.0.1:51649
+1670172938950	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilehk5lYx"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1670172939328	Marionette	INFO	Marionette enabled
+1670172939333	Marionette	INFO	Listening on port 37073
+Read port: 37073
+1670172939441	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehk5lYx/search.json.mozlz4", (void 0)))
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 139: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 139: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 139: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 139: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1670172948718	Marionette	INFO	Stopped listening on port 37073
+1671023236636	geckodriver	INFO	Listening on 127.0.0.1:36489
+1671023237647	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileMbANa8"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671023238199	Marionette	INFO	Marionette enabled
+1671023238205	Marionette	INFO	Listening on port 45947
+Read port: 45947
+1671023238382	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMbANa8/search.json.mozlz4", (void 0)))
+1671023254206	Marionette	INFO	Stopped listening on port 45947
+1671023255607	geckodriver	INFO	Listening on 127.0.0.1:60833
+1671023256603	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilekVRxMW"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671023257133	Marionette	INFO	Marionette enabled
+1671023257141	Marionette	INFO	Listening on port 42213
+Read port: 42213
+1671023257330	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekVRxMW/search.json.mozlz4", (void 0)))
+1671023268514	Marionette	INFO	Stopped listening on port 42213
+1671023270051	geckodriver	INFO	Listening on 127.0.0.1:35497
+1671023271072	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile5HUpcj"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671023271562	Marionette	INFO	Marionette enabled
+1671023271568	Marionette	INFO	Listening on port 36461
+Read port: 36461
+1671023271725	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5HUpcj/search.json.mozlz4", (void 0)))
+1671023279808	Marionette	INFO	Stopped listening on port 36461
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f34dd880b00"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f34e0c21000"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f34e24a4600"
+1671023281770	geckodriver	INFO	Listening on 127.0.0.1:38047
+1671023282774	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileKXicaR"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671023283310	Marionette	INFO	Marionette enabled
+1671023283322	Marionette	INFO	Listening on port 34027
+Read port: 34027
+1671023283516	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKXicaR/search.json.mozlz4", (void 0)))
+1671023844270	geckodriver	INFO	Listening on 127.0.0.1:39393
+1671023845308	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileRJvHTT"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671023846530	Marionette	INFO	Marionette enabled
+1671023846548	Marionette	INFO	Listening on port 44211
+Read port: 44211
+1671023847052	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRJvHTT/search.json.mozlz4", (void 0)))
+1671023874223	Marionette	INFO	Stopped listening on port 44211
+1671023877570	geckodriver	INFO	Listening on 127.0.0.1:48505
+1671023878577	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileuXHQyN"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671023879729	Marionette	INFO	Marionette enabled
+1671023879751	Marionette	INFO	Listening on port 43905
+Read port: 43905
+1671023880225	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuXHQyN/search.json.mozlz4", (void 0)))
+1671023899805	Marionette	INFO	Stopped listening on port 43905
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f8259dc6700"
+1671023903035	geckodriver	INFO	Listening on 127.0.0.1:45911
+1671023904042	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilejQiH2t"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671023905223	Marionette	INFO	Marionette enabled
+1671023905239	Marionette	INFO	Listening on port 39445
+Read port: 39445
+1671023905619	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejQiH2t/search.json.mozlz4", (void 0)))
+1671023918956	Marionette	INFO	Stopped listening on port 39445
+1671023921113	geckodriver	INFO	Listening on 127.0.0.1:54551
+1671023922126	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofiletwMjif"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671023923361	Marionette	INFO	Marionette enabled
+1671023923381	Marionette	INFO	Listening on port 43077
+Read port: 43077
+1671023923816	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletwMjif/search.json.mozlz4", (void 0)))
+1671024603210	geckodriver	INFO	Listening on 127.0.0.1:35029
+1671024604226	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilerDEw7T"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671024605476	Marionette	INFO	Marionette enabled
+1671024605490	Marionette	INFO	Listening on port 35177
+Read port: 35177
+1671024605914	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerDEw7T/search.json.mozlz4", (void 0)))
+1671024625654	Marionette	INFO	Stopped listening on port 35177
+1671024628089	geckodriver	INFO	Listening on 127.0.0.1:53633
+1671024629100	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile02N6hm"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671024630297	Marionette	INFO	Marionette enabled
+1671024630324	Marionette	INFO	Listening on port 40461
+Read port: 40461
+1671024630747	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile02N6hm/search.json.mozlz4", (void 0)))
+1671024645578	Marionette	INFO	Stopped listening on port 40461
+1671024649061	geckodriver	INFO	Listening on 127.0.0.1:45119
+1671024650100	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilejZ6URr"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671024651301	Marionette	INFO	Marionette enabled
+1671024651319	Marionette	INFO	Listening on port 40357
+Read port: 40357
+1671024651740	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejZ6URr/search.json.mozlz4", (void 0)))
+1671024666773	Marionette	INFO	Stopped listening on port 40357
+1671024669841	geckodriver	INFO	Listening on 127.0.0.1:60055
+1671024670844	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilerhWRVr"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671024672190	Marionette	INFO	Marionette enabled
+1671024672210	Marionette	INFO	Listening on port 43537
+Read port: 43537
+1671024672682	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerhWRVr/search.json.mozlz4", (void 0)))
+1671024729496	geckodriver	INFO	Listening on 127.0.0.1:50405
+1671024730517	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileAnysmh"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671024731833	Marionette	INFO	Marionette enabled
+1671024731860	Marionette	INFO	Listening on port 37395
+Read port: 37395
+1671024732444	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAnysmh/search.json.mozlz4", (void 0)))
+1671024760836	Marionette	INFO	Stopped listening on port 37395
+1671024763888	geckodriver	INFO	Listening on 127.0.0.1:47035
+1671024764920	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilea3YGVt"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671024766516	Marionette	INFO	Marionette enabled
+1671024766537	Marionette	INFO	Listening on port 42077
+Read port: 42077
+1671024767010	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilea3YGVt/search.json.mozlz4", (void 0)))
+1671024790432	Marionette	INFO	Stopped listening on port 42077
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f4a9f147300"
+1671024793872	geckodriver	INFO	Listening on 127.0.0.1:59159
+1671024794877	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileNK6KLm"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671024795880	Marionette	INFO	Marionette enabled
+1671024795908	Marionette	INFO	Listening on port 44029
+Read port: 44029
+1671024796322	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNK6KLm/search.json.mozlz4", (void 0)))
+1671024817427	Marionette	INFO	Stopped listening on port 44029
+1671024820175	geckodriver	INFO	Listening on 127.0.0.1:46287
+1671024821164	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileKlSRPf"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671024822463	Marionette	INFO	Marionette enabled
+1671024822483	Marionette	INFO	Listening on port 36147
+Read port: 36147
+1671024822904	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKlSRPf/search.json.mozlz4", (void 0)))
+1671025136694	geckodriver	INFO	Listening on 127.0.0.1:50461
+1671025137687	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilebkbaGU"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671025139015	Marionette	INFO	Marionette enabled
+1671025139041	Marionette	INFO	Listening on port 39837
+Read port: 39837
+1671025139519	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebkbaGU/search.json.mozlz4", (void 0)))
+1671025172357	Marionette	INFO	Stopped listening on port 39837
+1671025175650	geckodriver	INFO	Listening on 127.0.0.1:39011
+1671025176689	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileH72U2J"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671025178312	Marionette	INFO	Marionette enabled
+1671025178337	Marionette	INFO	Listening on port 44993
+Read port: 44993
+1671025178855	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileH72U2J/search.json.mozlz4", (void 0)))
+1671025198793	Marionette	INFO	Stopped listening on port 44993
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f2e6d889900"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f2e6d887600"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f2e6d889400"
+1671025203754	geckodriver	INFO	Listening on 127.0.0.1:36943
+1671025204792	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileXFvvcG"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671025206262	Marionette	INFO	Marionette enabled
+1671025206285	Marionette	INFO	Listening on port 43941
+Read port: 43941
+1671025206827	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXFvvcG/search.json.mozlz4", (void 0)))
+1671025224990	Marionette	INFO	Stopped listening on port 43941
+1671025228235	geckodriver	INFO	Listening on 127.0.0.1:32851
+1671025229257	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilelUStCI"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671025230675	Marionette	INFO	Marionette enabled
+1671025230697	Marionette	INFO	Listening on port 43011
+Read port: 43011
+1671025231185	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelUStCI/search.json.mozlz4", (void 0)))
+1671025251488	Marionette	INFO	Stopped listening on port 43011
+1671025256060	geckodriver	INFO	Listening on 127.0.0.1:53325
+1671025257085	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileuYC3QU"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671025258537	Marionette	INFO	Marionette enabled
+1671025258557	Marionette	INFO	Listening on port 40531
+Read port: 40531
+1671025258983	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuYC3QU/search.json.mozlz4", (void 0)))
+1671025277863	Marionette	INFO	Stopped listening on port 40531
+1671025280700	geckodriver	INFO	Listening on 127.0.0.1:53047
+1671025281731	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileOlJvIj"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671025283527	Marionette	INFO	Marionette enabled
+1671025283545	Marionette	INFO	Listening on port 43083
+Read port: 43083
+1671025284045	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOlJvIj/search.json.mozlz4", (void 0)))
+1671025303113	Marionette	INFO	Stopped listening on port 43083
+1671025304939	geckodriver	INFO	Listening on 127.0.0.1:48155
+1671025305956	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileJuW76d"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671025307223	Marionette	INFO	Marionette enabled
+1671025307241	Marionette	INFO	Listening on port 43435
+Read port: 43435
+1671025307713	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJuW76d/search.json.mozlz4", (void 0)))
+1671025325893	Marionette	INFO	Stopped listening on port 43435
+1671025328812	geckodriver	INFO	Listening on 127.0.0.1:54551
+1671025329848	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile7p7a3L"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671025331314	Marionette	INFO	Marionette enabled
+1671025331334	Marionette	INFO	Listening on port 46289
+Read port: 46289
+1671025331792	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7p7a3L/search.json.mozlz4", (void 0)))
+1671025353289	Marionette	INFO	Stopped listening on port 46289
+1671025359650	geckodriver	INFO	Listening on 127.0.0.1:51665
+1671025360665	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileEzeH8O"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671025362053	Marionette	INFO	Marionette enabled
+1671025362075	Marionette	INFO	Listening on port 33525
+Read port: 33525
+1671025362542	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEzeH8O/search.json.mozlz4", (void 0)))
+1671025390540	Marionette	INFO	Stopped listening on port 33525
+1671025395564	geckodriver	INFO	Listening on 127.0.0.1:46585
+1671025396600	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilerbEiSK"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671025398148	Marionette	INFO	Marionette enabled
+1671025398169	Marionette	INFO	Listening on port 42863
+Read port: 42863
+1671025398730	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerbEiSK/search.json.mozlz4", (void 0)))
+1671025418390	Marionette	INFO	Stopped listening on port 42863
+1671025421186	geckodriver	INFO	Listening on 127.0.0.1:47017
+1671025422189	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileCLzjVD"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671025423767	Marionette	INFO	Marionette enabled
+1671025423792	Marionette	INFO	Listening on port 35509
+Read port: 35509
+1671025424303	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCLzjVD/search.json.mozlz4", (void 0)))
+1671025444010	Marionette	INFO	Stopped listening on port 35509
+1671025446756	geckodriver	INFO	Listening on 127.0.0.1:45167
+1671025447804	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilet5PhsC"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671025449524	Marionette	INFO	Marionette enabled
+1671025449542	Marionette	INFO	Listening on port 32879
+Read port: 32879
+1671025450088	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilet5PhsC/search.json.mozlz4", (void 0)))
+1671025481960	Marionette	INFO	Stopped listening on port 32879
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f4cf13b7500"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f4cf13b8e00"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f4cf13bb600"
+1671025485343	geckodriver	INFO	Listening on 127.0.0.1:48831
+1671025486370	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileOO9bhs"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671025487969	Marionette	INFO	Marionette enabled
+1671025487989	Marionette	INFO	Listening on port 37843
+Read port: 37843
+1671025488527	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOO9bhs/search.json.mozlz4", (void 0)))
+1671025508505	Marionette	INFO	Stopped listening on port 37843
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1671025512290	geckodriver	INFO	Listening on 127.0.0.1:52945
+1671025513346	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilepmNBOp"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671025514953	Marionette	INFO	Marionette enabled
+1671025514975	Marionette	INFO	Listening on port 45297
+Read port: 45297
+1671025515547	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepmNBOp/search.json.mozlz4", (void 0)))
+1671025533110	Marionette	INFO	Stopped listening on port 45297
+1671025535950	geckodriver	INFO	Listening on 127.0.0.1:46681
+1671025536990	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilekVmdZI"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671025538482	Marionette	INFO	Marionette enabled
+1671025538501	Marionette	INFO	Listening on port 42597
+Read port: 42597
+1671025538973	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekVmdZI/search.json.mozlz4", (void 0)))
+1671025557365	Marionette	INFO	Stopped listening on port 42597
+1671025559770	geckodriver	INFO	Listening on 127.0.0.1:53129
+1671025560794	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileUuCy9o"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671025562395	Marionette	INFO	Marionette enabled
+1671025562423	Marionette	INFO	Listening on port 39877
+Read port: 39877
+1671025562880	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUuCy9o/search.json.mozlz4", (void 0)))
+1671025580697	Marionette	INFO	Stopped listening on port 39877
+1671025584907	geckodriver	INFO	Listening on 127.0.0.1:39417
+1671025585932	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileXgDjoq"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671025587489	Marionette	INFO	Marionette enabled
+1671025587506	Marionette	INFO	Listening on port 45957
+Read port: 45957
+1671025588073	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXgDjoq/search.json.mozlz4", (void 0)))
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1610: Error: permitUnload is already running for this tab.
+1671025647851	Marionette	INFO	Stopped listening on port 45957
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f0364110000"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f0364114100"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f036460ad00"
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1671026853757	geckodriver	INFO	Listening on 127.0.0.1:42183
+1671026854819	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilerZq8ig"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671026856360	Marionette	INFO	Marionette enabled
+1671026856391	Marionette	INFO	Listening on port 44351
+Read port: 44351
+1671026856979	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerZq8ig/search.json.mozlz4", (void 0)))
+1671026886909	Marionette	INFO	Stopped listening on port 44351
+1671026892056	geckodriver	INFO	Listening on 127.0.0.1:40649
+1671026893103	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilenlTcmo"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671026894719	Marionette	INFO	Marionette enabled
+1671026894740	Marionette	INFO	Listening on port 37197
+Read port: 37197
+1671026895300	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenlTcmo/search.json.mozlz4", (void 0)))
+1671026915401	Marionette	INFO	Stopped listening on port 37197
+1671026918322	geckodriver	INFO	Listening on 127.0.0.1:36031
+1671026919354	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofiledqqQqR"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671026921052	Marionette	INFO	Marionette enabled
+1671026921075	Marionette	INFO	Listening on port 33459
+Read port: 33459
+1671026921663	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledqqQqR/search.json.mozlz4", (void 0)))
+1671026953553	Marionette	INFO	Stopped listening on port 33459
+1671026957233	geckodriver	INFO	Listening on 127.0.0.1:45667
+1671026958257	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileHCNSct"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671026959932	Marionette	INFO	Marionette enabled
+1671026959962	Marionette	INFO	Listening on port 42609
+Read port: 42609
+1671026960556	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHCNSct/search.json.mozlz4", (void 0)))
+1671026989459	Marionette	INFO	Stopped listening on port 42609
+1671026993500	geckodriver	INFO	Listening on 127.0.0.1:47351
+1671026994533	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileXNcBI4"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671026996170	Marionette	INFO	Marionette enabled
+1671026996191	Marionette	INFO	Listening on port 39953
+Read port: 39953
+1671026996737	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXNcBI4/search.json.mozlz4", (void 0)))
+1671027024679	Marionette	INFO	Stopped listening on port 39953
+1671027028860	geckodriver	INFO	Listening on 127.0.0.1:57223
+1671027029908	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileE7SOCE"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671027031692	Marionette	INFO	Marionette enabled
+1671027031714	Marionette	INFO	Listening on port 37377
+Read port: 37377
+1671027032283	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileE7SOCE/search.json.mozlz4", (void 0)))
+1671027064034	Marionette	INFO	Stopped listening on port 37377
+1671027067038	geckodriver	INFO	Listening on 127.0.0.1:41897
+1671027068044	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileiokRGR"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671027069763	Marionette	INFO	Marionette enabled
+1671027069782	Marionette	INFO	Listening on port 33567
+Read port: 33567
+1671027070319	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileiokRGR/search.json.mozlz4", (void 0)))
+JavaScript error: https://www.kp.md/online/news/5056186/, line 42: ReferenceError: params is not defined
+1671027100707	Marionette	INFO	Stopped listening on port 33567
+1671027104183	geckodriver	INFO	Listening on 127.0.0.1:42741
+1671027105223	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofiler3Cs1Q"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671027106952	Marionette	INFO	Marionette enabled
+1671027106979	Marionette	INFO	Listening on port 42217
+Read port: 42217
+1671027107579	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiler3Cs1Q/search.json.mozlz4", (void 0)))
+1671027130770	Marionette	INFO	Stopped listening on port 42217
+1671027133597	geckodriver	INFO	Listening on 127.0.0.1:59989
+1671027134620	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileMbI9vf"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671027135797	Marionette	INFO	Marionette enabled
+1671027135810	Marionette	INFO	Listening on port 41523
+Read port: 41523
+1671027136166	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMbI9vf/search.json.mozlz4", (void 0)))
+1671027160252	Marionette	INFO	Stopped listening on port 41523
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f0300f0ff00"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f0300c32900"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f0300c34c00"
+1671027164255	geckodriver	INFO	Listening on 127.0.0.1:55851
+1671027165253	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilepD5Pws"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671027166910	Marionette	INFO	Marionette enabled
+1671027166946	Marionette	INFO	Listening on port 44189
+Read port: 44189
+1671027167515	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepD5Pws/search.json.mozlz4", (void 0)))
+1671027189191	Marionette	INFO	Stopped listening on port 44189
+1671027191603	geckodriver	INFO	Listening on 127.0.0.1:47683
+1671027192638	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileO2hJ8J"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671027194261	Marionette	INFO	Marionette enabled
+1671027194284	Marionette	INFO	Listening on port 33385
+Read port: 33385
+1671027194862	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileO2hJ8J/search.json.mozlz4", (void 0)))
+1671027219410	Marionette	INFO	Stopped listening on port 33385
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f4fc5d7e000"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f4fc5d7ef00"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f4fc5e3f600"
+1671027224241	geckodriver	INFO	Listening on 127.0.0.1:51065
+1671027225311	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilexaFxkp"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671027226907	Marionette	INFO	Marionette enabled
+1671027226936	Marionette	INFO	Listening on port 41069
+Read port: 41069
+1671027227447	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexaFxkp/search.json.mozlz4", (void 0)))
+1671027246348	Marionette	INFO	Stopped listening on port 41069
+1671027248676	geckodriver	INFO	Listening on 127.0.0.1:45201
+1671027249673	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilen3RSq4"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671027251091	Marionette	INFO	Marionette enabled
+1671027251111	Marionette	INFO	Listening on port 37891
+Read port: 37891
+1671027251610	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilen3RSq4/search.json.mozlz4", (void 0)))
+1671027271770	Marionette	INFO	Stopped listening on port 37891
+1671027274328	geckodriver	INFO	Listening on 127.0.0.1:40545
+1671027275372	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileqO1iY0"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671027276917	Marionette	INFO	Marionette enabled
+1671027276942	Marionette	INFO	Listening on port 33821
+Read port: 33821
+1671027277430	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqO1iY0/search.json.mozlz4", (void 0)))
+1671027295905	Marionette	INFO	Stopped listening on port 33821
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1671027298571	geckodriver	INFO	Listening on 127.0.0.1:45489
+1671027299603	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilexGL9sp"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671027301286	Marionette	INFO	Marionette enabled
+1671027301308	Marionette	INFO	Listening on port 43417
+Read port: 43417
+1671027301806	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexGL9sp/search.json.mozlz4", (void 0)))
+1671027319119	Marionette	INFO	Stopped listening on port 43417
+1671027323535	geckodriver	INFO	Listening on 127.0.0.1:50213
+1671027324539	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileQ6wyDu"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671027325942	Marionette	INFO	Marionette enabled
+1671027325966	Marionette	INFO	Listening on port 43599
+Read port: 43599
+1671027326523	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQ6wyDu/search.json.mozlz4", (void 0)))
+out of memory: 0x0000000000001000 bytes requested
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1671027754371	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1671027754811	geckodriver	INFO	Listening on 127.0.0.1:35991
+1671027755730	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileiLEj5g"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671027757573	Marionette	INFO	Marionette enabled
+1671027757595	Marionette	INFO	Listening on port 45041
+Read port: 45041
+1671027758162	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileiLEj5g/search.json.mozlz4", (void 0)))
+1671027782187	Marionette	INFO	Stopped listening on port 45041
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f0dbba60f00"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f0dbbdf4000"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f0dbbdf8100"
+1671027788584	geckodriver	INFO	Listening on 127.0.0.1:56899
+1671027789613	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofiletiA2gS"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671027791263	Marionette	INFO	Marionette enabled
+1671027791288	Marionette	INFO	Listening on port 41681
+Read port: 41681
+1671027791787	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletiA2gS/search.json.mozlz4", (void 0)))
+1671027819691	Marionette	INFO	Stopped listening on port 41681
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f7f278b5f00"
+1671027823338	geckodriver	INFO	Listening on 127.0.0.1:51043
+1671027824363	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileNcwUAl"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671027825781	Marionette	INFO	Marionette enabled
+1671027825801	Marionette	INFO	Listening on port 41043
+Read port: 41043
+1671027826296	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNcwUAl/search.json.mozlz4", (void 0)))
+1671027844335	Marionette	INFO	Stopped listening on port 41043
+1671027846954	geckodriver	INFO	Listening on 127.0.0.1:60865
+1671027847974	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile3j2Viv"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671027849434	Marionette	INFO	Marionette enabled
+1671027849453	Marionette	INFO	Listening on port 36959
+Read port: 36959
+1671027849935	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3j2Viv/search.json.mozlz4", (void 0)))
+1671027910026	Marionette	INFO	Stopped listening on port 36959
+1671027913311	geckodriver	INFO	Listening on 127.0.0.1:57153
+1671027914348	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilef6BiyT"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671027916146	Marionette	INFO	Marionette enabled
+1671027916182	Marionette	INFO	Listening on port 33475
+Read port: 33475
+1671027916741	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilef6BiyT/search.json.mozlz4", (void 0)))
+1671027935821	Marionette	INFO	Stopped listening on port 33475
+1671027940015	geckodriver	INFO	Listening on 127.0.0.1:55311
+1671027941034	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofilenYMhz5"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671027942407	Marionette	INFO	Marionette enabled
+1671027942426	Marionette	INFO	Listening on port 42587
+Read port: 42587
+1671027942913	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenYMhz5/search.json.mozlz4", (void 0)))
+1671027964075	Marionette	INFO	Stopped listening on port 42587
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7fcb5b3d6300"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7fcb5b3d5e00"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7fcb5acbb700"
+1671027969905	geckodriver	INFO	Listening on 127.0.0.1:44549
+1671027970942	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileDz3HMW"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671027972520	Marionette	INFO	Marionette enabled
+1671027972544	Marionette	INFO	Listening on port 35103
+Read port: 35103
+1671027973109	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDz3HMW/search.json.mozlz4", (void 0)))
+1671027994667	Marionette	INFO	Stopped listening on port 35103
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f5308a6b800"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f5308a69000"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f5308a68b00"
+1671028000524	geckodriver	INFO	Listening on 127.0.0.1:39019
+1671028001550	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileKAinab"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671028002991	Marionette	INFO	Marionette enabled
+1671028003011	Marionette	INFO	Listening on port 38207
+Read port: 38207
+1671028003527	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKAinab/search.json.mozlz4", (void 0)))
+1671028021447	Marionette	INFO	Stopped listening on port 38207
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1671028025848	geckodriver	INFO	Listening on 127.0.0.1:47573
+1671028026855	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile1co2gS"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671028028545	Marionette	INFO	Marionette enabled
+1671028028576	Marionette	INFO	Listening on port 45677
+Read port: 45677
+1671028029125	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1co2gS/search.json.mozlz4", (void 0)))
+1671028057130	Marionette	INFO	Stopped listening on port 45677
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f8269449900"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7f826944a300"
+1671028061530	geckodriver	INFO	Listening on 127.0.0.1:58273
+1671028062600	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofile0fQN5e"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671028064151	Marionette	INFO	Marionette enabled
+1671028064173	Marionette	INFO	Listening on port 37191
+Read port: 37191
+1671028065021	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0fQN5e/search.json.mozlz4", (void 0)))
+1671028085417	Marionette	INFO	Stopped listening on port 37191
+JavaScript error: https://yastatic.net/safeframe-bundles/0.83/1-1-0/protected/render.html, line 33: ReferenceError: AdobeAn is not defined
+1671028088378	geckodriver	INFO	Listening on 127.0.0.1:53495
+1671028089411	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileC6IbUl"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671028090951	Marionette	INFO	Marionette enabled
+1671028090977	Marionette	INFO	Listening on port 45781
+Read port: 45781
+1671028091481	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileC6IbUl/search.json.mozlz4", (void 0)))
+1671028114770	Marionette	INFO	Stopped listening on port 45781
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7eff0b7e1900"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7eff0b7e4600"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 717: Error: Phase "quit-application-granted" is finished, it is too late to register completion condition "ContentParent: id=7eff0841c100"
+1671028120316	geckodriver	INFO	Listening on 127.0.0.1:36367
+1671028121341	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileHozzN9"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671028122847	Marionette	INFO	Marionette enabled
+1671028122867	Marionette	INFO	Listening on port 43123
+Read port: 43123
+1671028123285	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHozzN9/search.json.mozlz4", (void 0)))
+1671028148162	Marionette	INFO	Stopped listening on port 43123
+1671028153914	geckodriver	INFO	Listening on 127.0.0.1:33387
+1671028154946	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileaauDPb"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671028156687	Marionette	INFO	Marionette enabled
+1671028156705	Marionette	INFO	Listening on port 44439
+Read port: 44439
+1671028157350	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaauDPb/search.json.mozlz4", (void 0)))
+1671028195705	Marionette	INFO	Stopped listening on port 44439
+1671028198734	geckodriver	INFO	Listening on 127.0.0.1:33823
+1671028199777	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileQwokNf"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671028201561	Marionette	INFO	Marionette enabled
+1671028201585	Marionette	INFO	Listening on port 36937
+Read port: 36937
+1671028202213	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQwokNf/search.json.mozlz4", (void 0)))
+JavaScript error: https://www.kp.ru/online/news/5056163/ line 325 > injectedScript, line 1: TypeError: google_tag_manager['GTM-WCBNVW'].macro(...) is undefined
+1671028232547	geckodriver	INFO	Listening on 127.0.0.1:55049
+1671028233576	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileBAe96M"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671028241734	Marionette	INFO	Marionette enabled
+1671028241767	Marionette	INFO	Listening on port 45779
+Read port: 45779
+1671028242609	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBAe96M/search.json.mozlz4", (void 0)))
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"SessionStore: flushing all windows","state":{"total":1,"current":0},"filename":"resource:///modules/sessionstore/SessionStore.jsm","lineNumber":2199,"stack":["resource:///modules/sessionstore/SessionStore.jsm:ssi_onQuitApplicationGranted:2199","resource:///modules/sessionstore/SessionStore.jsm:ssi_observe:1109","resource:///modules/ContentCrashHandlers.jsm:observe:177"]}] Barrier: quit-application-granted
+1671028697735	Marionette	INFO	Stopped listening on port 36147
+1671030434704	geckodriver	INFO	Listening on 127.0.0.1:37389
+1671030435671	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileLOZjNG"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1671030437537	Marionette	INFO	Marionette enabled
+1671030437563	Marionette	INFO	Listening on port 35701
+Read port: 35701
+1671030438611	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLOZjNG/search.json.mozlz4", (void 0)))
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: wr_renderer_render: OutOfMemory
+[GFX1-]: Handling webrender error 2
+[GFX1-]: wr_renderer_render: OutOfMemory
+[GFX1-]: Handling webrender error 2
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1610: Error: permitUnload is already running for this tab.
+1671691176686	Marionette	INFO	Stopped listening on port 34027
+1671725128971	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+1671725248705	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
