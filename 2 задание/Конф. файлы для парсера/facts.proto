@@ -1,0 +1,8 @@
+import "base.proto";
+import "facttypes_base.proto";
+
+message find_fact: NFactType.TFact
+{
+    required string mesto = 1;
+    required string persona = 2;
+}

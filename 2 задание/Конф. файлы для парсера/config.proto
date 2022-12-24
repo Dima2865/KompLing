@@ -1,0 +1,25 @@
+encoding "utf8";
+
+TTextMinerConfig {
+  Dictionary = "dictionary.gzt";
+  
+  Input = {
+    File = "a46";
+  }
+
+  Articles = [
+    { Name = "person_place_find" }
+  ]
+
+  Facts = [
+    { Name = "find_fact" }
+  ]
+
+  Output = {
+    File = "output.txt";
+    Format = text;
+  }
+
+  PrettyOutput = "46.html";
+
+}
