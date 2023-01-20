@@ -8,7 +8,9 @@ get_strings_for_syn.py - программа для выгрузки предло
 
 news_final - экспорт базы данных в формате .json
 
-#Руководство по установке и пользованию.
+--------------------------------------------------
+
+Руководство по установке и пользованию.
 
 Необходимо установить Oracle VM VirtualBox. Скачать можно с официального сайта Oracle: https://www.oracle.com/virtualization/technologies/vm/downloads/virtualbox-downloads.html 
 Далее устанавливаем ОС Ubuntu 18.04 на виртуальную машину. Скачать с официального сайта Ubuntu: https://releases.ubuntu.com/18.04/
