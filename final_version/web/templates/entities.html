@@ -1,0 +1,173 @@
+<!--Страница просмотра сущностей из БД-->
+
+{% extends "base.html" %}
+
+{% block title %}{% if is_entity %}{{ entity.name }}{% else %}Entities{% endif %}{% endblock %}
+
+{% block scripts %}
+    <script>let ids = ['type', 'name', 'index', 'rating']</script>
+    <script src="{{ url_for('static', filename='sortable.js') }}"></script>
+{% endblock %}
+
+{% block content %}
+    <div class="content">
+        <!--Вывод данных о конкретной сущности-->
+        {% if is_entity %}
+
+            {% if entity %}
+                <!--Сущность найдена-->
+
+                <div>
+                    <!--Имя/название и иконка-->
+                    <h2 class="no-wrap inline">
+                        <!--Внимание! Приколы HTML. Перенос строки между элементами транслируется в пробел!-->
+                        <!--Если поместить перенос строки в комментарий, всё исправляется-->
+                        {% if entity.type == 'Person' %}
+                            <i class="fas fa-user"></i><!--
+                     -->{% else %}
+                            <i class="fas fa-landmark"></i><!--
+                     -->{% endif %}<!--
+                     --><span class="padded">{{ entity.name }}</span>
+                    </h2>
+
+                    <!--Рейтинг и индекс-->
+                    <div class="h-spaced">
+                        <div class="h-left">
+                            {% if entity.rating == -10 %}
+                                <i class="fas fa-question"></i><span class="padded">No data</span>
+                            {% elif entity.rating > 0 %}
+                                <i class="fas fa-thumbs-up"></i><span class="padded">{{ entity.rating_round }}</span>
+                            {% elif entity.rating < 0 %}
+                                <i class="fas fa-thumbs-down"></i><span class="padded">{{ entity.rating_round }}</span>
+                            {% else %}
+                                <i class="fas fa-circle-notch"></i><span class="padded">{{ entity.rating_round }}</span>
+                            {% endif %}
+                        </div>
+                        <div class="h-right"><i class="fas fa-expand"></i><span class="padded">{{ entity.index }}</span></div>
+                    </div>
+
+                    <!--Списки синонимов и слов окружения-->
+                    <div>
+                        <h3>Synonyms</h3>
+                        <p>
+                            {% if entity.synonyms %}
+                                {{ capitalize(', '.join(entity.synonyms)) }}
+                            {% else %}
+                                No synonyms
+                            {% endif %}
+                        </p>
+
+                        <h3>Environment words</h3>
+                        <p>
+                            {% if entity.environment_words %}
+                                {{ capitalize(', '.join(entity.environment_words)) }}
+                            {% else %}
+                                No environment words
+                            {% endif %}
+                        </p>
+                    </div>
+                </div>
+
+                <!--Предложения с упоминанием сущности-->
+                <div>
+                    <h3>Sentences</h3>
+                        {% if sentences %}
+                            {% for sentence in sentences %}
+                                <p class="{{ sentence.tonality_class }}">
+                                    {{ sentence.content }}<br>
+                                    <a class="article-src" href="{{ sentence.src_to_article.url }}">
+                                        <i class="fas fa-newspaper"></i><!--
+                                     --><span class="padded">{{ sentence.src_to_article.short_title }}</span>
+                                    </a>
+                                </p>
+                            {% endfor %}
+                        {% else %}
+                            <p>
+                                No sentences
+                            </p>
+                        {% endif %}
+                </div>
+
+
+            {% else %}
+                <h1 class="message-centered">Entity not found</h1>
+                {% include "go_back.html" %}
+            {% endif %}
+
+        {% else %}
+
+            {% if entity_list %}
+
+                {% include "page_navigation.html" %}
+
+                <!--Список сщностей таблицей-->
+                <table class="centered">
+                <thead>
+                <tr>
+                    <th class="no-select pointer iSortable" id="type"><i class="fas fa-tag"></i></th>
+                    <th class="no-select pointer iSortable" id="name">Name</th>
+                    <th class="no-select pointer iSortable" id="index">Index</th>
+                    <th class="no-select pointer iSortable" id="rating">Rating</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for entity in entity_list %}
+                <tr>
+                    <!--Иконка зависит от типа сущности-->
+                    <td>
+                        {% if entity.type == 'Person' %}
+                            <i class="fas fa-user"></i>
+                        {% else %}
+                            <i class="fas fa-landmark"></i>
+                        {% endif %}
+                    </td>
+                    <td class="ellipsis"><a href="{{ entity.url }}">{{ entity.name }}</a></td>
+                    <td>{{ entity.index }}</td>
+                    <td>
+                        <!--Рядом с рейтингом отображаем палец вверх/вниз-->
+                        <!--Если рейтинга нету (-1) рисуем вопросительный знак-->
+                        {% if entity.rating == -10 %}
+                            <i class="fas fa-question"></i>
+                        {% elif entity.rating > 0 %}
+                            <i class="fas fa-thumbs-up"></i><span class="padded">{{ entity.rating_round }}</span>
+                        {% elif entity.rating < 0 %}
+                            <i class="fas fa-thumbs-down"></i><span class="padded">{{ entity.rating_round }}</span>
+                        {% else %}
+                            <i class="fas fa-circle-notch"></i><span class="padded">{{ entity.rating_round }}</span>
+                        {% endif %}
+                    </td>
+                </tr>
+                {% endfor %}
+                </tbody>
+                </table>
+
+                {% include "page_navigation.html" %}
+
+            {% elif count != 0 %}
+
+                <!--Неправильный номер страницы-->
+                <h1 class="message-centered">This is wrong page</h1>
+                {% include "go_back.html" %}
+
+            {% else %}
+                <!--Сущностей нет в БД-->
+                <h1 class="message-centered">No entities found</h1>
+                {% include "go_back.html" %}
+
+            {% endif %}
+
+        {% endif %}
+    </div>
+{% endblock %}
+
+
+{% block other %}
+    {% if is_entity %}
+        <!-- Кнопка назад в левой части экрана -->
+        <div class="back-pane no-select">
+            <a href="{{ back }}" class="back">
+                <i class="fas fa-arrow-left"></i> Back
+            </a>
+        </div>
+    {% endif %}
+{% endblock %}

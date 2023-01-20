@@ -1,0 +1,38 @@
+<!-- Панель навигации по "многостраничной" странице -->
+
+{% set sort = request.args.get('sort') %}
+{% set order = request.args.get('order') %}
+{% set only = request.args.get('only', None) %}
+
+{% if navparams %}
+    <div class="navbar no-select">
+
+        <!-- Стрелки влево -->
+        {% if navparams.previous %}
+            <a class="nav-arrow" href="{{ make_nav_url(url_for(request.endpoint), 0, sort, order, only) }}">
+                <i class="fas fa-step-backward"></i>
+            </a> |
+            <a class="nav-arrow" href="{{ make_nav_url(url_for(request.endpoint), navparams.page - 1, sort, order, only) }}">
+                <i class="fas fa-arrow-left"></i>
+            </a>
+        {% else %}
+            <i class="fas fa-step-backward nav-inactive"></i> | <i class="fas fa-arrow-left nav-inactive"></i>
+        {% endif %}
+
+        <!-- Номер страницы и общее количество страниц -->
+        | <b>{{ navparams.page + 1 }}/{{ navparams.count }}</b> |
+
+        <!-- Стрелки вправо -->
+        {% if navparams.next %}
+            <a class="nav-arrow" href="{{ make_nav_url(url_for(request.endpoint), navparams.page + 1, sort, order, only) }}">
+                <i class="fas fa-arrow-right"></i>
+            </a> |
+            <a class="nav-arrow" href="{{ make_nav_url(url_for(request.endpoint), navparams.count - 1, sort, order, only) }}">
+                <i class="fas fa-step-forward"></i>
+            </a>
+        {% else %}
+            <i class="fas fa-arrow-right nav-inactive"></i> | <i class="fas fa-step-forward nav-inactive"></i>
+        {% endif %}
+
+    </div>
+{% endif %}

@@ -1,0 +1,60 @@
+<!--Страница статьи. Тут отображаем данные статьи-->
+
+{% extends "base.html" %}
+
+{% block title %}{% if article %}{{ article.title }}{% else %}Article not found{% endif %}{% endblock %}
+
+{% block content %}
+    <div class="content">
+        {% if article %}
+            <!-- Ссылка на статью на сайте v1 -->
+            <div><i class="fas fa-link"></i> <a href="{{ article.url }}" target="_blank">{{ article.url }}</a></div>
+
+            <!-- Заголовок статьи большими буквами -->
+            <div><h2>{{ article.title }}</h2></div>
+
+            <!-- Отображение даты публикации, количества просмотров и комментариев -->
+            <div class="h-spaced">
+                <div class="h-left"><i class="fas fa-calendar-alt"></i> {{ format_date(article.date) }}</div>
+                <div class="h-right">
+                    <i class="fas fa-solid fa-pencil"></i> {% if article.author %}{{ article.author }}{% else %}Без автора{% endif %}
+                </div>
+            </div>
+            <!-- Текст статьи отображаем по абзацам -->
+            <div class="text-content">
+                <!--Тут мы получаем параграфы с встроенными выделенными предложениями-->
+                {% for paragraph in get_paragraphs(article, sentences) %}
+                    <!--safe предотвращает экранирование, ибо выделение через html-тэг-->
+                    <p>{{ paragraph | safe }}</p>
+                {% endfor %}
+            </div>
+            {% if article.sentence %}
+            <div class="text-content">
+                <table class="tonality-table">
+                    <thead><tr><th>Sentence</th><th>Tonality</th></tr></thead>
+                    <tbody>
+                        {% for sentence, tonality in article.sentence_tonality %}
+                            <tr><td>{{ sentence }}</td><td>{{ tonality }}</td></tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            {% endif %}
+        {% else %}
+
+            <!-- Статья не найдена -->
+            <h1 class="message-centered">Article not found</h1>
+            {% include "go_back.html" %}
+
+        {% endif %}
+    </div>
+{% endblock %}
+
+{% block other %}
+    <!-- Кнопка назад в левой части экрана -->
+    <div class="back-pane no-select">
+        <a href="{{ back }}" class="back">
+            <i class="fas fa-arrow-left"></i> Back
+        </a>
+    </div>
+{% endblock %}

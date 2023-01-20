@@ -1,0 +1,513 @@
+/* Переменные */
+
+:root {
+    color-scheme: light;
+
+    --bg-main: #f0f0f0;
+    --bg-elem: white;
+    --bg-elem-hover: #f0f0f0;
+    --bg-active: #e0e0e0;
+
+    --bg-positive: #e0ffe0;
+    --bg-positive-hover: #a4ffa4;
+    --bg-mostly-positive: #e0fff9;
+    --bg-mostly-positive-hover: #a4ffed;
+    --bg-neutral: #dbe4ff;
+    --bg-neutral-hover: #b3c4ff;
+    --bg-mostly-negative: #ffe6d1;
+    --bg-mostly-negative-hover: #ffb891;
+    --bg-negative: #ffd1d1;
+    --bg-negative-hover: #ff9191;
+
+    --font-main: black;
+    --font-faded: #737373;
+
+    --link-regular: #4034e7;
+    --link-visited: #489f81;
+    --link-focus: goldenrod;
+    --link-active: darkgoldenrod;
+
+    --link-regular-alt: rgb(45, 128, 206);
+    --link-focus-alt: rgb(52, 150, 240);
+    --link-active-alt: rgb(35, 88, 138);
+}
+
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        color-scheme: dark;
+
+        --bg-main: #393939;
+        --bg-elem: #2d2d2d;
+        --bg-elem-hover: #484848;
+        --bg-active: #474747;
+
+        --bg-positive: #2a3728;
+        --bg-positive-hover: #2b622b;
+        --bg-mostly-positive: #3a4846;
+        --bg-mostly-positive-hover: #3c6761;
+        --bg-neutral: #373747;
+        --bg-neutral-hover: #404b75;
+        --bg-mostly-negative: #4c3c35;
+        --bg-mostly-negative-hover: #795538;
+        --bg-negative: #473535;
+        --bg-negative-hover: #833737;
+
+        --font-main: #bbc1c4;
+        --font-faded: #484848;
+
+        --link-regular: #4034e7;
+        --link-visited: #489f81;
+        --link-focus: goldenrod;
+        --link-active: darkgoldenrod;
+
+        --link-regular-alt: rgb(45, 128, 206);
+        --link-focus-alt: rgb(52, 150, 240);
+        --link-active-alt: rgb(35, 88, 138);
+    }
+}
+
+/* Текст в абзацах по ширине */
+h2, h3, h4, h5, h6, p {
+    text-align: justify;
+}
+
+/* Отступы и интервал */
+p {
+    text-indent: 2em;
+    line-height: 1.5em;
+
+    padding: 0.5em;
+    margin: 0;
+
+    border-radius: 0.5em;
+
+    cursor: text;
+
+    transition: background-color 1s;
+}
+
+/* Выделение абзаца под курсором */
+p:hover {
+    background: var(--bg-main);
+}
+
+/* Сам блок текста с отступом сверху и снизу */
+.text-content {
+    margin: 1em 0;
+}
+
+/* Убираем отступы и добавляем фон */
+/* + Читаемый шрифт */
+body {
+    margin: 0;
+    background: var(--bg-main);
+
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: var(--font-main);
+}
+
+/* Чуть более приятные ссылочки */
+    a {
+        color: var(--link-regular);
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: var(--link-visited);
+    }
+
+    a:hover,
+    a:focus {
+        color: var(--link-focus);
+    }
+
+    a:active {
+        color: var(--link-active);
+    }
+
+/* А это ссылочки с кастомным видом */
+    .white-link,
+    .white-link:visited{
+        font-weight: bold;
+        color: var(--font-main);
+        text-decoration: none;
+
+        white-space: nowrap;
+    }
+
+    .white-link:hover,
+    .white-link:focus {
+        color: var(--font-main);
+        text-decoration: underline var(--font-main);
+    }
+
+    .back,
+    .back:visited {
+        color: var(--font-main);
+        text-decoration: none;
+
+        width: 100%;
+
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .back-pane {
+        position: fixed;
+        float: left;
+        left: 0;
+        top: 0;
+
+        min-width: 4.5em;
+        width: 7%;
+        height: 100%;
+
+        display: flex;
+
+        transition: background-color 500ms;
+    }
+
+    .back-pane:hover {
+        background: var(--bg-active);
+    }
+
+    .to-main,
+    .to-main:visited {
+        color: var(--link-regular-alt);
+    }
+
+    .to-main:hover,
+    .to-main:focus {
+        color: var(--link-focus-alt);
+        text-decoration: underline;
+    }
+
+    .to-main:active {
+        color: var(--link-active-alt);
+        text-decoration: underline;
+    }
+
+    /* Ссылки назад и на главную */
+    .go-back .link-top {
+        margin-bottom: 10px;
+    }
+
+    .go-back a {
+        font-size: 1.2rem;
+    }
+
+
+/* Контент по центру и не занимает всю страницу */
+    .p60 {
+        width: 60%;
+    }
+
+    .p70 {
+        width: 70%;
+    }
+
+    .centered {
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+/* Блоки контента в отдельных "контейнерах" */
+.pre-content,
+.content {
+    background: var(--bg-elem);
+    border-radius: 10px;
+    padding: 15px 30px;
+
+    overflow-y: auto;
+
+    margin: 10px 0;
+}
+
+/* Красивости у заголовков */
+    .header {
+        margin-bottom: 10px;
+        display: flex;
+    }
+
+    .header h1 {
+        margin: 0;
+        position: relative;
+        left: 10px;
+    }
+
+    .subheader img {
+        float: left;
+        height: 18px;
+    }
+
+    .links {
+        display: flex;
+        gap: clamp(0.5rem, 1rem, 1.5rem);
+    }
+
+    .icon-container {
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+
+        width: 2.4rem;
+        height: 2.4rem;
+
+        float: left;
+    }
+
+    .icon-item {
+        width: 1.2rem;
+        height: 1.2rem;
+
+        transition: background-color 500ms;
+    }
+
+    .tl {
+        background: rgb(0, 91, 255);
+    }
+
+    .tr {
+        background: rgb(116, 138, 255);
+    }
+
+    .bl {
+            background: rgb(0, 82, 206);
+        }
+    .br {
+            background: rgb(0, 91, 255);
+        }
+
+    .icon-item:hover {
+        background: rgb(156, 191, 255);
+    }
+
+/* Панель управления */
+
+    /* Поле ввода */
+    #parse-input {
+        width: 3rem;
+    }
+
+    .rec-count {
+        margin: 0 0 1rem 0;
+    }
+
+
+/* Стили для панельки навигации */
+    .navbar {
+        text-align: center;
+        white-space: nowrap;
+        padding: 10px 0;
+        font-size: 1.15rem;
+    }
+
+    .nav-inactive {
+        color: var(--font-faded)
+    }
+
+    .nav-arrow,
+    .nav-arrow:visited {
+        color: var(--link-regular-alt);
+        text-decoration: none;
+    }
+
+    .nav-arrow:hover,
+    .nav-arrow:focus {
+        color: var(--link-focus-alt);
+        text-decoration: none;
+    }
+
+    .nav-arrow:active {
+        color: var(--link-active-alt);
+    }
+
+/* Предотвращает выделение текста */
+.no-select {
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+/* Делает ссылку незаметной */
+.no-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Предотвращает разрывы строк */
+.no-wrap {
+    white-space: nowrap;
+}
+
+/* Меняет курсор при наведении */
+.pointer {
+    cursor: pointer;
+}
+
+/* Текст по центру */
+.message-centered {
+    display: block;
+    text-align: center;
+}
+
+/* Элементы внутри по краям строки */
+.h-spaced {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Отступ после иконки и перед текстом */
+.padded {
+    margin-left: .3rem;
+}
+
+
+/* Стрелочки справа от поля, по которому сортируем */
+    .arrow {
+        border: solid var(--font-main);
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+
+        margin-left: 10px;
+    }
+
+    .arrow.up {
+        transform: rotate(-135deg);
+        -webkit-transform: rotate(-135deg);
+
+        margin-bottom: -1px;
+    }
+
+    .arrow.down {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+
+        margin-bottom: 3px;
+    }
+
+
+/* Внешний вид табличек */
+    /* Рассредоточиваем ячейки и предотвращаем переносы строк */
+    table {
+        border-spacing: 0.3em 0.5em;
+
+        white-space: nowrap;
+    }
+
+    /* Заголовки по левому краю выравниваем */
+    th {
+        text-align: left;
+    }
+
+    /* Ячейки в длине ограничиваем и переполнение прячем */
+    td {
+        max-width: 29vw;
+        overflow: hidden;
+    }
+
+    /* Строки и заголовки при наведении подсвечиваем */
+    th:hover,
+    tbody tr:hover {
+        background: var(--bg-elem-hover);
+    }
+
+    /* Многоточие при переполнении к названиям прилепляем */
+    .ellipsis {
+        color: inherit;
+
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+/* Подсветка абзацев с предложениями */
+.Positive {
+    background-color: var(--bg-positive);
+    transition: background-color 1s;
+}
+
+.Positive:hover {
+    background-color: var(--bg-positive-hover);
+}
+
+
+.MostlyPositive {
+    background-color: var(--bg-mostly-positive);
+    transition: background-color 1s;
+}
+
+.MostlyPositive:hover {
+    background-color: var(--bg-mostly-positive-hover);
+}
+
+
+.Neutral {
+    background-color: var(--bg-neutral);
+}
+
+.Neutral:hover {
+    background-color: var(--bg-neutral-hover);
+}
+
+
+.MostlyNegative {
+    background-color: var(--bg-mostly-negative);
+    transition: background-color 1s;
+}
+
+.MostlyNegative:hover {
+    background-color: var(--bg-mostly-negative-hover);
+}
+
+
+.Negative {
+    background-color: var(--bg-negative);
+    transition: background-color 1s;
+}
+
+.Negative:hover  {
+    background-color: var(--bg-negative-hover);
+}
+
+
+/* Ссылка на статью-источник */
+.article-src {
+    text-indent: 0;
+    line-height: 2em;
+}
+
+/* Подсветка предложения в теле статьи */
+.sentence-inline {
+    display: inline;
+    padding: 0.15em;
+    border-radius:0.3em;
+
+    -webkit-box-decoration-break: clone;
+    -o-box-decoration-break: clone;
+    box-decoration-break: clone;
+
+    transition: background-color 1s;
+}
+
+.sentence-inline-link {
+    display: inline;
+    text-indent: 0.15em;
+}
+
+.update-buttons {
+    margin: 20px auto;
+}
+
+.tonality-table {
+    width: 100%;
+}
+
+.tonality-table td {
+    word-wrap: anywhere;
+    white-space: normal;
+}

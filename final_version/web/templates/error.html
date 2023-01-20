@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}{{ error.code }} {{ error.name }}{% endblock %}
+
+{% block content %}
+    <div class="content">
+        <!-- Отображаем код ошибки и название -->
+        <h1 class="message-centered">{{ error.code }} {{ error.name }}</h1>
+
+        <!-- Отображаем сообщение -->
+        <h2 class="message-centered">{{ error.description }}</h2>
+
+        <!-- Добавляем ссылки для возвращения назад или на главную -->
+        {% include "go_back.html" %}
+    </div>
+{% endblock %}

@@ -1,0 +1,16 @@
+<!-- Ссылки назад и на главную -->
+<div class="go-back">
+
+    <!-- Ссылка назад есть только если параметр назад задан и это не главная страница -->
+    {% if back and back != "/" %}
+        <div class="message-centered link-top">
+            <a class="to-main" href="{{ back }}"><i class="fas fa-arrow-left"></i> Go back</a>
+        </div>
+    {% endif %}
+
+    <!-- Ссылка на главную есть всегда -->
+    <div class="message-centered">
+        <a class="to-main" href="/"><i class="fas fa-home"></i> Main page</a>
+    </div>
+
+</div>

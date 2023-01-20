@@ -1,0 +1,87 @@
+<!-- Главная страница. Отображаем список статей с возможностью
+открыть оригинал или страницу статьи в интерфейсе -->
+
+{% extends "base.html" %}
+
+{% block title %}Article List{% endblock %}
+
+{% block scripts %}
+    <!-- Включаем собственный скрипт -->
+    <script src="{{ url_for('static', filename='index.js') }}"></script>
+    <script>let ids = ['title', 'date', 'author', 'sentence']</script>
+    <script src="{{ url_for('static', filename='sortable.js') }}"></script>
+{% endblock %}
+
+
+{% block content %}
+
+    <!-- Блок с количеством записей в БД и кнопочкой Update -->
+    <div class="content">
+        <h3 class="rec-count">There's currently {{ count }} records in database</h3>
+        <div class="update-buttons" id="records">
+            <label for="parse-input-records">Parse <input id="parse-input-records" oninput="validate(this)" value="1" min="1" max="10000"> articles</label>
+            <button onclick="updateDatabaseRecords()">Parse</button>
+            <div id="upd-results-records"></div>
+        </div>
+        <div class="update-buttons" id="by-date">
+            <label for="parse-input-by-date">Parse for <input type="date" id="parse-input-by-date" value="{{ now }}" max="{{ now }}"></label>
+            <button onclick="updateDatabaseByDate()">Parse</button>
+            <div id="upd-results-by-date"></div>
+        </div>
+     </div>
+
+    <!-- Сам список статей -->
+    <div class="content">
+    {% if articles %}
+
+        <!-- Влепляем панельку навигации. Ещё одна снизу -->
+        {% include "page_navigation.html" %}
+
+        <!-- Данные красиво показываем табличкой -->
+        <table class="centered">
+            <thead>
+            <tr>
+                <th class="no-select">Link</th>
+
+                <!-- Следующие поля позволяют сортировку -->
+
+                <th class="no-select pointer iSortable" id="title">Title</th>
+                <th class="no-select pointer iSortable" id="date">Date</th>
+                <th class="no-select pointer iSortable" id="author">Author</th>
+                <th class="no-select pointer iSortable" id="sentence">Sentences</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for article in articles %}
+            <tr>
+                <!-- Ссылка на статью на kp.ru -->
+                <td><a href="{{ article.url }}" target="_blank">kp.ru</a></td>
+
+                <!-- Ссылка на статью в интерфейсе -->
+                <td class="ellipsis"><a href="{{ article.internal_url }}">{{ article.title }}</a></td>
+
+                <td>{{ format_date(article.date) }}</td>
+                <td>{% if article.author %}{{ article.author }}{% else %}Без автора{% endif %}</td>
+                <td>{{ article.sentence | length }}</td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+
+        {% include "page_navigation.html" %}
+
+    {% elif count != 0 %}
+
+        <!-- Если статей для этой страницы нет, но сами статьи есть, то это неправильная страница -->
+        <h1 class="message-centered">This is wrong page</h1>
+        {% include "go_back.html" %}
+
+    {% else %}
+
+        <!-- При отсутствии статей отображаем соответствующее сообщение -->
+        <h1 class="message-centered">No articles found</h1>
+
+    {% endif %}
+    </div>
+
+{% endblock %}

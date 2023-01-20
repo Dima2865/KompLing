@@ -1,0 +1,55 @@
+<!-- Базовый шаблон. На него надеваем все остальные шаблоны страниц -->
+
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+
+        <!-- Заголовок страницы. Блок позволяет заменить часть заголовка в зависимости от страницы -->
+        <title>{{ ws_name }} - {% block title %}{{ ws_desc }}{% endblock %}</title>
+
+        <!-- Синенькая иконка -->
+        <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.png') }}">
+
+        <!-- Инклюдим jquery, чтобы просто посылать запросы -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Font Awesome для красивых иконок -->
+        <script src="https://kit.fontawesome.com/59d44e60f0.js" crossorigin="anonymous"></script>
+
+        <!-- Базовые стили -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='base.css') }}">
+
+        <!-- Стили и скрипты конкретные для страницы-->
+        {% block styles %}{% endblock %}
+        {% block scripts %}{% endblock %}
+
+    </head>
+    <body>
+        <div class="p70 centered">
+
+            <!-- Шапка страницы  -->
+            <div class="pre-content">
+                <div class="header no-select pointer" onclick="location.assign('/')">
+                    <h1>{{ ws_name }} - {{ ws_desc }}</h1>
+                </div>
+
+                <!--Ссылки на v1 и страницы интерфейса-->
+                <div class="links">
+                    <a href="https://kp.ru" target="_blank" class="subheader white-link no-select">
+                        <img src="{{ url_for('static', filename='favicons.png') }}" alt="icon">
+                        <span class="padded">KP.RU</span>
+                    </a>
+                    <a href="/index" class="white-link no-select"><i class="fas fa-newspaper"></i><span class="padded">Articles</span></a>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Сюда подставляется основной контент страницы -->
+            {% block content %}{% endblock %}
+        </div>
+
+        <!-- Здесь всякие дополнительные элементы -->
+        {% block other %}{% endblock %}
+    </body>
+</html>
