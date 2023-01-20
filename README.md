@@ -12,10 +12,15 @@
 
 Выполняем следующие команды в терминале:
 •	sudo apt-get install build-essential cmake lua5.2
+
 •	git clone https://github.com/yandex/tomita-parser
+
 •	cd tomita-parser && mkdir build && cd build
+
 •	cmake ../src/ -DCMAKE_BUILD_TYPE=Release
+
 •	make
+
 •	копируем libmystem-c-binding.so из https://github.com/yandex/tomita-parser/releases/tag/v1.0 в ту же папку
 
 Установка базы данных MongoDB:
