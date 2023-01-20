@@ -11,6 +11,7 @@
 Ссылка на гит с парсером: https://github.com/yandex/tomita-parser/
 
 Выполняем следующие команды в терминале:
+
 •	sudo apt-get install build-essential cmake lua5.2
 
 •	git clone https://github.com/yandex/tomita-parser
