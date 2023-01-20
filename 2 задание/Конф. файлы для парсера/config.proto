@@ -4,7 +4,7 @@ TTextMinerConfig {
   Dictionary = "dictionary.gzt";
   
   Input = {
-    File = "a46";
+    File = "input.txt";
   }
 
   Articles = [
@@ -20,6 +20,6 @@ TTextMinerConfig {
     Format = text;
   }
 
-  PrettyOutput = "46.html";
+  PrettyOutput = "output.html";
 
 }
